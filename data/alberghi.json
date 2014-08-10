@@ -1,0 +1,3610 @@
+[
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Boscolo Hotel Exedra",
+        "Indirizzo":"Cso Matteotti Giacomo",
+        "Categoria":" 4/6",
+        "Numero_Camere":5,
+        "Numero_Postiletto":154
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Carlton Hotel Baglioni",
+        "Indirizzo":"Via Senato",
+        "Categoria":"5",
+        "Numero_Camere":5,
+        "Numero_Postiletto":93
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Four Season Hotel Milan",
+        "Indirizzo":"Via Gesu'",
+        "Categoria":"10",
+        "Numero_Camere":5,
+        "Numero_Postiletto":118
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Pierre Milano",
+        "Indirizzo":"Via De Amicis Edmondo",
+        "Categoria":"32",
+        "Numero_Camere":5,
+        "Numero_Postiletto":47
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Park Hyatt Milano",
+        "Indirizzo":"Via Grossi Tommaso",
+        "Categoria":"1",
+        "Numero_Camere":5,
+        "Numero_Postiletto":106
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"The Gray",
+        "Indirizzo":"Via San Raffaele",
+        "Categoria":"6",
+        "Numero_Camere":5,
+        "Numero_Postiletto":21
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Town House Galleria",
+        "Indirizzo":"Via Santa Radegonda",
+        "Categoria":"14",
+        "Numero_Camere":5,
+        "Numero_Postiletto":18
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Lloyd",
+        "Indirizzo":"Cso Di Porta Romana",
+        "Categoria":"48",
+        "Numero_Camere":4,
+        "Numero_Postiletto":56
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Galileo",
+        "Indirizzo":"Cso Europa",
+        "Categoria":"9",
+        "Numero_Camere":4,
+        "Numero_Postiletto":89
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel King",
+        "Indirizzo":"Cso Magenta",
+        "Categoria":"19",
+        "Numero_Camere":4,
+        "Numero_Postiletto":48
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ambasciatori",
+        "Indirizzo":"Via Del Corso",
+        "Categoria":"3",
+        "Numero_Camere":4,
+        "Numero_Postiletto":87
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Jolly Hotel President",
+        "Indirizzo":"Lgo Augusto",
+        "Categoria":"10",
+        "Numero_Camere":4,
+        "Numero_Postiletto":242
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Grand Hotel Duomo",
+        "Indirizzo":"Pza Del Duomo",
+        "Categoria":"25",
+        "Numero_Camere":4,
+        "Numero_Postiletto":161
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Grand Hotel Plaza",
+        "Indirizzo":"Pza Diaz Armando",
+        "Categoria":"3",
+        "Numero_Camere":4,
+        "Numero_Postiletto":119
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Starhotels Rosa Grand",
+        "Indirizzo":"Pza Fontana",
+        "Categoria":"3",
+        "Numero_Camere":4,
+        "Numero_Postiletto":327
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Dei Cavalieri",
+        "Indirizzo":"Via Missori Giuseppe",
+        "Categoria":"1",
+        "Numero_Camere":4,
+        "Numero_Postiletto":167
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Brunelleschi",
+        "Indirizzo":"Via Baracchini Flavio",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":177
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Regina",
+        "Indirizzo":"Via Correnti Cesare",
+        "Categoria":"13",
+        "Numero_Camere":4,
+        "Numero_Postiletto":43
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel De La Ville",
+        "Indirizzo":"Via Hoepli Ulrico",
+        "Categoria":"6",
+        "Numero_Camere":4,
+        "Numero_Postiletto":109
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Ascot",
+        "Indirizzo":"Via Lentasio",
+        "Categoria":"3",
+        "Numero_Camere":4,
+        "Numero_Postiletto":64
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Sir Edward",
+        "Indirizzo":"Via Mazzini Giuseppe",
+        "Categoria":"4",
+        "Numero_Camere":4,
+        "Numero_Postiletto":38
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Carrobio",
+        "Indirizzo":"Via Medici",
+        "Categoria":"3",
+        "Numero_Camere":4,
+        "Numero_Postiletto":56
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mentana",
+        "Indirizzo":"Via Morigi",
+        "Categoria":"2",
+        "Numero_Camere":4,
+        "Numero_Postiletto":32
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Straf",
+        "Indirizzo":"Via San Raffaele",
+        "Categoria":"3",
+        "Numero_Camere":4,
+        "Numero_Postiletto":64
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Uptown Palace",
+        "Indirizzo":"Via Santa Sofia",
+        "Categoria":"10",
+        "Numero_Camere":4,
+        "Numero_Postiletto":158
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Manzoni",
+        "Indirizzo":"Via Santo Spirito",
+        "Categoria":"20",
+        "Numero_Camere":4,
+        "Numero_Postiletto":47
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Spadari Al Duomo",
+        "Indirizzo":"Via Spadari",
+        "Categoria":"11",
+        "Numero_Camere":4,
+        "Numero_Postiletto":40
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Camperio House Hotel  E  Residence",
+        "Indirizzo":"Via Giulini Giorgio",
+        "Categoria":"6",
+        "Numero_Camere":4,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Di Corso Italia",
+        "Indirizzo":"Cso Italia",
+        "Categoria":"34",
+        "Numero_Camere":4,
+        "Numero_Postiletto":41
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Vip S",
+        "Indirizzo":"Via Pantano",
+        "Categoria":"8",
+        "Numero_Camere":4,
+        "Numero_Postiletto":38
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Vecchia Milano",
+        "Indirizzo":"Via Borromei",
+        "Categoria":"4",
+        "Numero_Camere":3,
+        "Numero_Postiletto":28
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ariston",
+        "Indirizzo":"Lgo Carrobbio",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":52
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Zurigio",
+        "Indirizzo":"Cso Italia",
+        "Categoria":"11",
+        "Numero_Camere":3,
+        "Numero_Postiletto":39
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Rio",
+        "Indirizzo":"Via Mazzini Giuseppe",
+        "Categoria":"8",
+        "Numero_Camere":3,
+        "Numero_Postiletto":42
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Gran Duca Di York",
+        "Indirizzo":"Via Moneta",
+        "Categoria":"1",
+        "Numero_Camere":3,
+        "Numero_Postiletto":33
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Genius Down Town",
+        "Indirizzo":"Via Porlezza",
+        "Categoria":"4",
+        "Numero_Camere":3,
+        "Numero_Postiletto":36
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Gritti",
+        "Indirizzo":"Pza Santa Maria Beltrade",
+        "Categoria":"4",
+        "Numero_Camere":3,
+        "Numero_Postiletto":48
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Nuovo Biscione",
+        "Indirizzo":"Via Santa Maria Fulcorina",
+        "Categoria":"15",
+        "Numero_Camere":3,
+        "Numero_Postiletto":25
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Canada",
+        "Indirizzo":"Via Santa Sofia",
+        "Categoria":"16",
+        "Numero_Camere":3,
+        "Numero_Postiletto":35
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Cerva",
+        "Indirizzo":"Via Cerva",
+        "Categoria":"16",
+        "Numero_Camere":3,
+        "Numero_Postiletto":7
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Nuovo",
+        "Indirizzo":"Pza Beccaria Cesare",
+        "Categoria":"6",
+        "Numero_Camere":1,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Bulgari Hotels  E  Resorts Milano",
+        "Indirizzo":"Via F.Lli Gabba",
+        "Categoria":"7",
+        "Numero_Camere":5,
+        "Numero_Postiletto":59
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Grand Hotel Et De Milan",
+        "Indirizzo":"Via Manzoni Alessandro",
+        "Categoria":"31",
+        "Numero_Camere":5,
+        "Numero_Postiletto":95
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Grand Hotel Et De Milan",
+        "Indirizzo":"Via Manzoni Alessandro",
+        "Categoria":"29",
+        "Numero_Camere":5,
+        "Numero_Postiletto":102
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Palazzo Parigi",
+        "Indirizzo":"Cso Porta Nuova",
+        "Categoria":"1",
+        "Numero_Camere":5,
+        "Numero_Postiletto":79
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Carlyle Brera Hotel",
+        "Indirizzo":"Cso Garibaldi Giuseppe",
+        "Categoria":"84",
+        "Numero_Camere":4,
+        "Numero_Postiletto":98
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Bonaparte",
+        "Indirizzo":"Via Cusani",
+        "Categoria":"13",
+        "Numero_Camere":4,
+        "Numero_Postiletto":92
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Milano Scala",
+        "Indirizzo":"Via Dell' Orso",
+        "Categoria":"7",
+        "Numero_Camere":4,
+        "Numero_Postiletto":62
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Cavour",
+        "Indirizzo":"Via Fatebenefratelli",
+        "Categoria":"21",
+        "Numero_Camere":4,
+        "Numero_Postiletto":121
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Manin",
+        "Indirizzo":"Via Manin Daniele",
+        "Categoria":"7",
+        "Numero_Camere":4,
+        "Numero_Postiletto":119
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"",
+        "Indirizzo":"Via San Tomaso",
+        "Categoria":"8",
+        "Numero_Camere":4,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Jolly Touring",
+        "Indirizzo":"Via Tarchetti Iginio Ugo",
+        "Categoria":"2",
+        "Numero_Camere":4,
+        "Numero_Postiletto":282
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Borgonuovo",
+        "Indirizzo":"Via Borgonuovo",
+        "Categoria":"1",
+        "Numero_Camere":4,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Principessa Clotilde",
+        "Indirizzo":"Cso Di Porta Nuova",
+        "Categoria":"52",
+        "Numero_Camere":4,
+        "Numero_Postiletto":216
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Centro",
+        "Indirizzo":"Via Broletto",
+        "Categoria":"46",
+        "Numero_Camere":3,
+        "Numero_Postiletto":54
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Star",
+        "Indirizzo":"Via Dei Bossi",
+        "Categoria":"5",
+        "Numero_Camere":3,
+        "Numero_Postiletto":30
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ritter",
+        "Indirizzo":"Cso Garibaldi Giuseppe",
+        "Categoria":"68",
+        "Numero_Camere":3,
+        "Numero_Postiletto":89
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Giulio Cesare",
+        "Indirizzo":"Via Rovello",
+        "Categoria":"10",
+        "Numero_Camere":3,
+        "Numero_Postiletto":24
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Antica Locanda Solferino",
+        "Indirizzo":"Via Castelfidardo",
+        "Categoria":"2",
+        "Numero_Camere":2,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel London",
+        "Indirizzo":"Via Rovello",
+        "Categoria":"3",
+        "Numero_Camere":2,
+        "Numero_Postiletto":29
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Style Hotel",
+        "Indirizzo":"Via Mercato",
+        "Categoria":"1",
+        "Numero_Camere":1,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Bocconi",
+        "Indirizzo":"Via Siracusa",
+        "Categoria":" 5/7",
+        "Numero_Camere":4,
+        "Numero_Postiletto":48
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Pavone",
+        "Indirizzo":"Via Dandolo Enrico",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":24
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Atena",
+        "Indirizzo":"Vle Piave",
+        "Categoria":"5",
+        "Numero_Camere":2,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Cinque Giornate",
+        "Indirizzo":"Pza Cinque Giornate",
+        "Categoria":"6",
+        "Numero_Camere":2,
+        "Numero_Postiletto":22
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Crivi S",
+        "Indirizzo":"Cso Di Porta Vigentina",
+        "Categoria":"46",
+        "Numero_Camere":4,
+        "Numero_Postiletto":64
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Hotel Romana Residence",
+        "Indirizzo":"Cso Di Porta Romana",
+        "Categoria":"64",
+        "Numero_Camere":4,
+        "Numero_Postiletto":72
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Petit Palais",
+        "Indirizzo":"Via Molino Delle Armi",
+        "Categoria":"1",
+        "Numero_Camere":4,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Idea Hotel Milano Corso Genova",
+        "Indirizzo":"Via Conca Del Naviglio",
+        "Categoria":"20",
+        "Numero_Camere":3,
+        "Numero_Postiletto":105
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Milano Navigli",
+        "Indirizzo":"Pza Sant' Eustorgio",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":22
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ariosto",
+        "Indirizzo":"Via Ariosto Lodovico",
+        "Categoria":"22",
+        "Numero_Camere":4,
+        "Numero_Postiletto":48
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Antica Locanda Leonardo",
+        "Indirizzo":"Cso Magenta",
+        "Categoria":"78",
+        "Numero_Camere":3,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Palazzo Delle Stelline",
+        "Indirizzo":"Cso Magenta",
+        "Categoria":"61",
+        "Numero_Camere":3,
+        "Numero_Postiletto":105
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Sant Ambreus",
+        "Indirizzo":"Vle Papiniano",
+        "Categoria":"14",
+        "Numero_Camere":3,
+        "Numero_Postiletto":52
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Lancaster",
+        "Indirizzo":"Via Sangiorgio Abbondio",
+        "Categoria":"16",
+        "Numero_Camere":3,
+        "Numero_Postiletto":30
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Europeo",
+        "Indirizzo":"Via Canonica Luigi",
+        "Categoria":"38",
+        "Numero_Camere":3,
+        "Numero_Postiletto":45
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Giusti 6",
+        "Indirizzo":"Via Giusti Giuseppe",
+        "Categoria":"6",
+        "Numero_Camere":3,
+        "Numero_Postiletto":72
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Duca Di Milano",
+        "Indirizzo":"Pza Della Repubblica",
+        "Categoria":"13",
+        "Numero_Camere":5,
+        "Numero_Postiletto":99
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Execelsior Gallia",
+        "Indirizzo":"Pza Duca D'Aosta",
+        "Categoria":"9",
+        "Numero_Camere":5,
+        "Numero_Postiletto":243
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Principe Di Savoia",
+        "Indirizzo":"Pza Della Repubblica",
+        "Categoria":"17",
+        "Numero_Camere":5,
+        "Numero_Postiletto":302
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"The Westin Palace",
+        "Indirizzo":"Pza Della Repubblica",
+        "Categoria":"20",
+        "Numero_Camere":5,
+        "Numero_Postiletto":228
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Starhotels Anderson",
+        "Indirizzo":"Pza Luigi Di Savoia",
+        "Categoria":"20",
+        "Numero_Camere":4,
+        "Numero_Postiletto":106
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Marconi",
+        "Indirizzo":"Via Filzi Fabio",
+        "Categoria":"3",
+        "Numero_Camere":4,
+        "Numero_Postiletto":67
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Una Hotel Century",
+        "Indirizzo":"Via Filzi Fabio",
+        "Categoria":" 25/B",
+        "Numero_Camere":4,
+        "Numero_Postiletto":144
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Windsor",
+        "Indirizzo":"Via Galilei Galileo",
+        "Categoria":"2",
+        "Numero_Camere":4,
+        "Numero_Postiletto":103
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hilton Milan",
+        "Indirizzo":"Via Galvani Luigi",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":320
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Madison",
+        "Indirizzo":"Via Gasparotto Leopoldo",
+        "Categoria":"8",
+        "Numero_Camere":4,
+        "Numero_Postiletto":97
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Nh Machiavelli",
+        "Indirizzo":"Via Lazzaretto",
+        "Categoria":"5",
+        "Numero_Camere":4,
+        "Numero_Postiletto":103
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Colombia",
+        "Indirizzo":"Via Lepetit Roberto",
+        "Categoria":"15",
+        "Numero_Camere":4,
+        "Numero_Postiletto":48
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mediolanum",
+        "Indirizzo":"Via Macchi Mauro",
+        "Categoria":"1",
+        "Numero_Camere":4,
+        "Numero_Postiletto":52
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"R.T.A. Le Gare",
+        "Indirizzo":"Via Macchi Mauro",
+        "Categoria":"49",
+        "Numero_Camere":4,
+        "Numero_Postiletto":22
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Baviera",
+        "Indirizzo":"Via Manuzio Aldo",
+        "Categoria":"9",
+        "Numero_Camere":4,
+        "Numero_Postiletto":52
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Auriga",
+        "Indirizzo":"Via Pirelli Giovanni Battista",
+        "Categoria":"7",
+        "Numero_Camere":4,
+        "Numero_Postiletto":52
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Andreola",
+        "Indirizzo":"Via Scarlatti Domenico",
+        "Categoria":"24",
+        "Numero_Camere":4,
+        "Numero_Postiletto":78
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Bristol",
+        "Indirizzo":"Via Scarlatti Domenico",
+        "Categoria":"32",
+        "Numero_Camere":4,
+        "Numero_Postiletto":68
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Michelangelo",
+        "Indirizzo":"Via Scarlatti Domenico",
+        "Categoria":"33",
+        "Numero_Camere":4,
+        "Numero_Postiletto":305
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Berna",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"18",
+        "Numero_Camere":4,
+        "Numero_Postiletto":122
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Atlantic",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"24",
+        "Numero_Camere":4,
+        "Numero_Postiletto":62
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Starhotels E.C.H.O.",
+        "Indirizzo":"Vle Doria Andrea",
+        "Categoria":"4",
+        "Numero_Camere":4,
+        "Numero_Postiletto":143
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residenza Delle Citta",
+        "Indirizzo":"Via Macchi Mauro",
+        "Categoria":"79",
+        "Numero_Camere":4,
+        "Numero_Postiletto":31
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Bolzano",
+        "Indirizzo":"Via Boscovich Ruggero",
+        "Categoria":"21",
+        "Numero_Camere":3,
+        "Numero_Postiletto":35
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Delle Nazioni",
+        "Indirizzo":"Via Cappellini Alfredo",
+        "Categoria":"18",
+        "Numero_Camere":3,
+        "Numero_Postiletto":81
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Club",
+        "Indirizzo":"Via Copernico Nicolo'",
+        "Categoria":"18",
+        "Numero_Camere":3,
+        "Numero_Postiletto":53
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Mini Hotel Aosta",
+        "Indirizzo":"Pza Duca D'Aosta",
+        "Categoria":"16",
+        "Numero_Camere":3,
+        "Numero_Postiletto":63
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Nuovo Monopole",
+        "Indirizzo":"Via Filzi Fabio",
+        "Categoria":"43",
+        "Numero_Camere":3,
+        "Numero_Postiletto":71
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Sempione",
+        "Indirizzo":"Via Finocchiaro Aprile",
+        "Categoria":"11",
+        "Numero_Camere":3,
+        "Numero_Postiletto":49
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ibis Milano Centro",
+        "Indirizzo":"Via Finocchiaro Aprile",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":439
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Florida",
+        "Indirizzo":"Via Lepetit Roberto",
+        "Categoria":"33",
+        "Numero_Camere":3,
+        "Numero_Postiletto":55
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel New York",
+        "Indirizzo":"Via Pirelli Giovanni Battista",
+        "Categoria":"5",
+        "Numero_Camere":3,
+        "Numero_Postiletto":69
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Terminal",
+        "Indirizzo":"Via Ponte Seveso",
+        "Categoria":"38",
+        "Numero_Camere":3,
+        "Numero_Postiletto":47
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Soperga",
+        "Indirizzo":"Via Soperga",
+        "Categoria":"24",
+        "Numero_Camere":3,
+        "Numero_Postiletto":78
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mythos",
+        "Indirizzo":"Via Tenca",
+        "Categoria":"21",
+        "Numero_Camere":3,
+        "Numero_Postiletto":52
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Albert",
+        "Indirizzo":"Via Tonale",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":62
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Demo",
+        "Indirizzo":"Via Tonale",
+        "Categoria":"14",
+        "Numero_Camere":3,
+        "Numero_Postiletto":28
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Dependance Hotel Berna",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"17",
+        "Numero_Camere":3,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Flora",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"23",
+        "Numero_Camere":3,
+        "Numero_Postiletto":50
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Augustus",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"29",
+        "Numero_Camere":3,
+        "Numero_Postiletto":56
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Bernina",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"27",
+        "Numero_Camere":3,
+        "Numero_Postiletto":44
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Canova",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"15",
+        "Numero_Camere":3,
+        "Numero_Postiletto":59
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Garda",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"21",
+        "Numero_Camere":3,
+        "Numero_Postiletto":56
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mennini",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"14",
+        "Numero_Camere":3,
+        "Numero_Postiletto":62
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Idea Hotel Milano Centrale",
+        "Indirizzo":"Via Torriani Napo",
+        "Categoria":"28",
+        "Numero_Camere":3,
+        "Numero_Postiletto":71
+    },
+    {
+        "Tipologia":"albergo",
+        "Insegna":"Gonzaga",
+        "Indirizzo":"Via Vitruvio",
+        "Categoria":"43",
+        "Numero_Camere":3,
+        "Numero_Postiletto":28
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Amadeus",
+        "Indirizzo":"Via Vitruvio",
+        "Categoria":"48",
+        "Numero_Camere":3,
+        "Numero_Postiletto":83
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Tencaresidence",
+        "Indirizzo":"Via Tenca Carlo",
+        "Categoria":"11",
+        "Numero_Camere":3,
+        "Numero_Postiletto":27
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ada",
+        "Indirizzo":"Via Sammartini Giovanni Battista",
+        "Categoria":"15",
+        "Numero_Camere":2,
+        "Numero_Postiletto":18
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Casa Mia",
+        "Indirizzo":"Vle Vittorio Veneto",
+        "Categoria":"30",
+        "Numero_Camere":2,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Edolo",
+        "Indirizzo":"Via Edolo",
+        "Categoria":"18",
+        "Numero_Camere":2,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Esco",
+        "Indirizzo":"Via Antonio Da Recanate",
+        "Categoria":"2",
+        "Numero_Camere":2,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ferton",
+        "Indirizzo":"Via San Gregorio",
+        "Categoria":"30",
+        "Numero_Camere":2,
+        "Numero_Postiletto":34
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Stazione",
+        "Indirizzo":"Via Pirelli Giovanni Battista",
+        "Categoria":"5",
+        "Numero_Camere":2,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Virgilio",
+        "Indirizzo":"Via Pl Da Palestrina",
+        "Categoria":"30",
+        "Numero_Camere":2,
+        "Numero_Postiletto":20
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Arno",
+        "Indirizzo":"Via Lazzaretto",
+        "Categoria":"17",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Pensione Eva",
+        "Indirizzo":"Via Lazzaretto",
+        "Categoria":"17",
+        "Numero_Camere":1,
+        "Numero_Postiletto":9
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Central Station",
+        "Indirizzo":"Via Sammartini Giovanni Battista",
+        "Categoria":"15",
+        "Numero_Camere":1,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Valley",
+        "Indirizzo":"Via Soperga",
+        "Categoria":"19",
+        "Numero_Camere":1,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Verona",
+        "Indirizzo":"Via Tenca Carlo",
+        "Categoria":"12",
+        "Numero_Camere":1,
+        "Numero_Postiletto":19
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Italia",
+        "Indirizzo":"Via Vitruvio",
+        "Categoria":"44",
+        "Numero_Camere":1,
+        "Numero_Postiletto":35
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Nazionale",
+        "Indirizzo":"Via Vitruvio",
+        "Categoria":"46",
+        "Numero_Camere":1,
+        "Numero_Postiletto":7
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Crowne Plaza Milan City",
+        "Indirizzo":"Via Gioia Melchiorre",
+        "Categoria":"73",
+        "Numero_Camere":4,
+        "Numero_Postiletto":99
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Pola",
+        "Indirizzo":"Via Pola",
+        "Categoria":"4",
+        "Numero_Camere":4,
+        "Numero_Postiletto":39
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Idea Hotel Milano Bicocca",
+        "Indirizzo":"Via Della Giustizia",
+        "Categoria":"10",
+        "Numero_Camere":4,
+        "Numero_Postiletto":145
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Viserba Residence",
+        "Indirizzo":"Via Viserba",
+        "Categoria":"18",
+        "Numero_Camere":3,
+        "Numero_Postiletto":47
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Convertini",
+        "Indirizzo":"Via San Mamete",
+        "Categoria":"12",
+        "Numero_Camere":1,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Ramada Plaza Milano",
+        "Indirizzo":"Via Stamira D'Ancona",
+        "Categoria":"27",
+        "Numero_Camere":4,
+        "Numero_Postiletto":167
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Concorde",
+        "Indirizzo":"Vle Monza",
+        "Categoria":"132",
+        "Numero_Camere":4,
+        "Numero_Postiletto":120
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Atahotel Linea Uno",
+        "Indirizzo":"Vle Monza",
+        "Categoria":"139",
+        "Numero_Camere":4,
+        "Numero_Postiletto":89
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Agape",
+        "Indirizzo":"Via Flumendosa",
+        "Categoria":"35",
+        "Numero_Camere":3,
+        "Numero_Postiletto":43
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Nuovo Metro",
+        "Indirizzo":"Vle Monza",
+        "Categoria":"120",
+        "Numero_Camere":3,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Casei",
+        "Indirizzo":"Via Cavezzali Francesco",
+        "Categoria":"11",
+        "Numero_Camere":3,
+        "Numero_Postiletto":180
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Loreto",
+        "Indirizzo":"Via Rancati Ilarione",
+        "Categoria":"3",
+        "Numero_Camere":3,
+        "Numero_Postiletto":45
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Trento",
+        "Indirizzo":"Via Dal Pozzo Toscanelli Paolo",
+        "Categoria":"4",
+        "Numero_Camere":1,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Pasteur",
+        "Indirizzo":"Via Guinizelli Guido",
+        "Categoria":"22",
+        "Numero_Camere":3,
+        "Numero_Postiletto":93
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Loreto",
+        "Indirizzo":"Via Bambaia",
+        "Categoria":"4",
+        "Numero_Camere":2,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Siro",
+        "Indirizzo":"Via Venini Giulio E Corrado",
+        "Categoria":"59",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Nu Hotel",
+        "Indirizzo":"Via Feltre",
+        "Categoria":"19",
+        "Numero_Camere":4,
+        "Numero_Postiletto":38
+    },
+    {
+        "Tipologia":"albergo",
+        "Insegna":"Hotel Rafael",
+        "Indirizzo":"Via Olgettina",
+        "Categoria":"60",
+        "Numero_Camere":3,
+        "Numero_Postiletto":216
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Lombardia",
+        "Indirizzo":"Vle Lombardia",
+        "Categoria":"74",
+        "Numero_Camere":3,
+        "Numero_Postiletto":96
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Pian Della Nave",
+        "Indirizzo":"Via Lambrate",
+        "Categoria":"9",
+        "Numero_Camere":3,
+        "Numero_Postiletto":67
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Catalani E Madrid",
+        "Indirizzo":"Via Catalani Alfredo",
+        "Categoria":"71",
+        "Numero_Camere":2,
+        "Numero_Postiletto":20
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo La Pace",
+        "Indirizzo":"Via Catalani Alfredo",
+        "Categoria":"69",
+        "Numero_Camere":1,
+        "Numero_Postiletto":20
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Adelchi Lambrate",
+        "Indirizzo":"Via Ingegnoli Francesco",
+        "Categoria":"20",
+        "Numero_Camere":1,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ca  Grande",
+        "Indirizzo":"Via Porpora Nicola Antonio",
+        "Categoria":"87",
+        "Numero_Camere":1,
+        "Numero_Postiletto":18
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Chopin",
+        "Indirizzo":"Via Porpora Nicola Antonio",
+        "Categoria":"143",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Chateau Monfort",
+        "Indirizzo":"Cso Concordia",
+        "Categoria":"1",
+        "Numero_Camere":5,
+        "Numero_Postiletto":77
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Napoleon",
+        "Indirizzo":"Via Ozanam Federico",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":40
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"St. George Hotel",
+        "Indirizzo":"Vle Tunisia",
+        "Categoria":"9",
+        "Numero_Camere":4,
+        "Numero_Postiletto":50
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Town House 33",
+        "Indirizzo":"Via Goldoni Carlo",
+        "Categoria":"33",
+        "Numero_Camere":4,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Cristoforo Colombo",
+        "Indirizzo":"Cso Buenos Aires",
+        "Categoria":"3",
+        "Numero_Camere":4,
+        "Numero_Postiletto":116
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Grand Hotel Puccini",
+        "Indirizzo":"Cso Buenos Aires",
+        "Categoria":"33",
+        "Numero_Camere":4,
+        "Numero_Postiletto":65
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Galles",
+        "Indirizzo":"Pza Lima",
+        "Categoria":"2",
+        "Numero_Camere":4,
+        "Numero_Postiletto":198
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Felice Casati",
+        "Indirizzo":"Via Casati Felice",
+        "Categoria":"18",
+        "Numero_Camere":4,
+        "Numero_Postiletto":99
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Zefiro",
+        "Indirizzo":"Via Gallina Giacinto",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":54
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Town House 31",
+        "Indirizzo":"Via Goldoni Carlo",
+        "Categoria":"31",
+        "Numero_Camere":4,
+        "Numero_Postiletto":18
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Sanpi",
+        "Indirizzo":"Via Palazzi Lazzaro",
+        "Categoria":"18",
+        "Numero_Camere":4,
+        "Numero_Postiletto":79
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Del Corso",
+        "Indirizzo":"Via Pecchio Giuseppe",
+        "Categoria":"2",
+        "Numero_Camere":4,
+        "Numero_Postiletto":26
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Starhotels Ritz",
+        "Indirizzo":"Via Spallanzani Lazzaro",
+        "Categoria":"40",
+        "Numero_Camere":4,
+        "Numero_Postiletto":207
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Doria Grand Hotel",
+        "Indirizzo":"Vle Doria Andrea",
+        "Categoria":"22",
+        "Numero_Camere":4,
+        "Numero_Postiletto":124
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Sheraton Diana Majestic",
+        "Indirizzo":"Vle Piave",
+        "Categoria":"42",
+        "Numero_Camere":4,
+        "Numero_Postiletto":105
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Donatello",
+        "Indirizzo":"Via Donatello",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence International",
+        "Indirizzo":"Via Modena Gustavo",
+        "Categoria":"4",
+        "Numero_Camere":4,
+        "Numero_Postiletto":37
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Aspromonte",
+        "Indirizzo":"Pza Aspromonte",
+        "Categoria":" 12/14",
+        "Numero_Camere":3,
+        "Numero_Postiletto":19
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Florence",
+        "Indirizzo":"Pza Aspromonte",
+        "Categoria":"22",
+        "Numero_Camere":3,
+        "Numero_Postiletto":29
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Roxy",
+        "Indirizzo":"Via Bixio Nino",
+        "Categoria":"6",
+        "Numero_Camere":3,
+        "Numero_Postiletto":36
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Bagliori",
+        "Indirizzo":"Via Boscovich Ruggero",
+        "Categoria":"43",
+        "Numero_Camere":3,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Serena",
+        "Indirizzo":"Via Boscovich Ruggero",
+        "Categoria":"59",
+        "Numero_Camere":3,
+        "Numero_Postiletto":51
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Fenice",
+        "Indirizzo":"Cso Buenos Aires",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":46
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Buenos Aires",
+        "Indirizzo":"Cso Buenos Aires",
+        "Categoria":"26",
+        "Numero_Camere":3,
+        "Numero_Postiletto":25
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel City",
+        "Indirizzo":"Gll Buenos Aires",
+        "Categoria":"5",
+        "Numero_Camere":3,
+        "Numero_Postiletto":60
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Brianza",
+        "Indirizzo":"Via Castaldi Panfilo",
+        "Categoria":"16",
+        "Numero_Camere":3,
+        "Numero_Postiletto":25
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ideale",
+        "Indirizzo":"Vle Dei Mille",
+        "Categoria":"60",
+        "Numero_Camere":3,
+        "Numero_Postiletto":22
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Royal",
+        "Indirizzo":"Via Goldoni Carlo",
+        "Categoria":"84",
+        "Numero_Camere":3,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel San Francisco",
+        "Indirizzo":"Vle Lombardia",
+        "Categoria":"55",
+        "Numero_Camere":3,
+        "Numero_Postiletto":28
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mercure Milano Centro Porta Venezi",
+        "Indirizzo":"Pza Oberdan Guglielmo",
+        "Categoria":"12",
+        "Numero_Camere":3,
+        "Numero_Postiletto":30
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Dore'",
+        "Indirizzo":"Via Paganini Niccolo'",
+        "Categoria":"7",
+        "Numero_Camere":3,
+        "Numero_Postiletto":18
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Demidoff",
+        "Indirizzo":"Via Plinio Caio Secondo",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":43
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Adler",
+        "Indirizzo":"Via Ricordi Giovanni",
+        "Categoria":"10",
+        "Numero_Camere":3,
+        "Numero_Postiletto":23
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Adler",
+        "Indirizzo":"Via Ricordi Giovanni",
+        "Categoria":"10",
+        "Numero_Camere":3,
+        "Numero_Postiletto":23
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Cristallo",
+        "Indirizzo":"Via Scarlatti Domenico",
+        "Categoria":"22",
+        "Numero_Camere":3,
+        "Numero_Postiletto":108
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Eurohotel",
+        "Indirizzo":"Via Sirtori Giuseppe",
+        "Categoria":"24",
+        "Numero_Camere":3,
+        "Numero_Postiletto":60
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Teco",
+        "Indirizzo":"Via Spallanzani Lazzaro",
+        "Categoria":"27",
+        "Numero_Camere":3,
+        "Numero_Postiletto":28
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mazzini",
+        "Indirizzo":"Via Vitruvio",
+        "Categoria":"29",
+        "Numero_Camere":3,
+        "Numero_Postiletto":18
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Domus",
+        "Indirizzo":"Vle Abruzzi",
+        "Categoria":"67",
+        "Numero_Camere":3,
+        "Numero_Postiletto":20
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Astrid",
+        "Indirizzo":"Via Lulli Giovanni",
+        "Categoria":"22",
+        "Numero_Camere":2,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel 2000",
+        "Indirizzo":"Via Vitruvio",
+        "Categoria":"28",
+        "Numero_Camere":2,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Charly",
+        "Indirizzo":"Via Settala Lodovico",
+        "Categoria":"76",
+        "Numero_Camere":2,
+        "Numero_Postiletto":20
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Due Giardini",
+        "Indirizzo":"Via Marcello Benedetto",
+        "Categoria":"47",
+        "Numero_Camere":2,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Eden",
+        "Indirizzo":"Via Vitruvio",
+        "Categoria":"20",
+        "Numero_Camere":2,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Gran Sasso",
+        "Indirizzo":"Via Lippi Filippino",
+        "Categoria":"28",
+        "Numero_Camere":2,
+        "Numero_Postiletto":22
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Medea",
+        "Indirizzo":"Via Goldoni Carlo",
+        "Categoria":"84",
+        "Numero_Camere":2,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mondial",
+        "Indirizzo":"Via Vitruvio",
+        "Categoria":"24",
+        "Numero_Camere":2,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Nizza",
+        "Indirizzo":"Via Porpora Nicola Antonio",
+        "Categoria":"18",
+        "Numero_Camere":2,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Piola",
+        "Indirizzo":"Via Pestalozza Alessandro",
+        "Categoria":"28",
+        "Numero_Camere":2,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Rallye",
+        "Indirizzo":"Via Marcello Benedetto",
+        "Categoria":"59",
+        "Numero_Camere":2,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Salerno",
+        "Indirizzo":"Via Vitruvio",
+        "Categoria":"18",
+        "Numero_Camere":2,
+        "Numero_Postiletto":19
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Siena",
+        "Indirizzo":"Via Castaldi Panfilo",
+        "Categoria":"17",
+        "Numero_Camere":2,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel The Best",
+        "Indirizzo":"Via Marcello Benedetto",
+        "Categoria":"83",
+        "Numero_Camere":2,
+        "Numero_Postiletto":28
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Trentina",
+        "Indirizzo":"Via Lippi Filippino",
+        "Categoria":"50",
+        "Numero_Camere":2,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Sara",
+        "Indirizzo":"Via Sacchini Antonio Gaspare",
+        "Categoria":"17",
+        "Numero_Camere":2,
+        "Numero_Postiletto":18
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Tirreno",
+        "Indirizzo":"Pza Aspromonte",
+        "Categoria":"18",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Aurora",
+        "Indirizzo":"Cso Buenos Aires",
+        "Categoria":"18",
+        "Numero_Camere":1,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Porta Venezia",
+        "Indirizzo":"Via Castaldi Panfilo",
+        "Categoria":"26",
+        "Numero_Camere":1,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Aladin",
+        "Indirizzo":"Vle Dei Mille",
+        "Categoria":"48",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Pensione Capri",
+        "Indirizzo":"Vle Dei Mille",
+        "Categoria":"24",
+        "Numero_Camere":1,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Calipso",
+        "Indirizzo":"Via Gaffurio Franchino",
+        "Categoria":"1",
+        "Numero_Camere":1,
+        "Numero_Postiletto":19
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Merano",
+        "Indirizzo":"Via Lazzaretto",
+        "Categoria":"10",
+        "Numero_Camere":1,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Acapulco",
+        "Indirizzo":"Vle Lombardia",
+        "Categoria":"59",
+        "Numero_Camere":1,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Loris",
+        "Indirizzo":"Via Lulli Giovanni",
+        "Categoria":"11",
+        "Numero_Camere":1,
+        "Numero_Postiletto":22
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel New Milano",
+        "Indirizzo":"Via Lulli Giovanni",
+        "Categoria":"18",
+        "Numero_Camere":1,
+        "Numero_Postiletto":9
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Viola",
+        "Indirizzo":"Via Lulli Giovanni",
+        "Categoria":"4",
+        "Numero_Camere":1,
+        "Numero_Postiletto":9
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Brasil",
+        "Indirizzo":"Via Modena Gustavo",
+        "Categoria":"20",
+        "Numero_Camere":1,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Paganini",
+        "Indirizzo":"Via Paganini Niccolo'",
+        "Categoria":"6",
+        "Numero_Camere":1,
+        "Numero_Postiletto":8
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Ambrosiana",
+        "Indirizzo":"Via Plinio Caio Secondo",
+        "Categoria":"22",
+        "Numero_Camere":1,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Poerio",
+        "Indirizzo":"Via Poerio Carlo",
+        "Categoria":"32",
+        "Numero_Camere":1,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Paola",
+        "Indirizzo":"Via Porpora Nicola Antonio",
+        "Categoria":"16",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Pensione Oriente",
+        "Indirizzo":"Via Porpora Nicola Antonio",
+        "Categoria":"52",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Malta",
+        "Indirizzo":"Via Ricordi Giovanni",
+        "Categoria":"20",
+        "Numero_Camere":1,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Villa Mira",
+        "Indirizzo":"Via Sacchini Antonio Gaspare",
+        "Categoria":"19",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Da Xin",
+        "Indirizzo":"Via Settala Lodovico",
+        "Categoria":"56",
+        "Numero_Camere":1,
+        "Numero_Postiletto":7
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Del Sole",
+        "Indirizzo":"Via Spontini Gaspare",
+        "Categoria":"6",
+        "Numero_Camere":1,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Nettuno",
+        "Indirizzo":"Via Tadino Alessandro",
+        "Categoria":"27",
+        "Numero_Camere":1,
+        "Numero_Postiletto":22
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Kennedy",
+        "Indirizzo":"Vle Tunisia",
+        "Categoria":"6",
+        "Numero_Camere":1,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel San Tomaso",
+        "Indirizzo":"Vle Tunisia",
+        "Categoria":"6",
+        "Numero_Camere":1,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Vallazze",
+        "Indirizzo":"Via Vallazze",
+        "Categoria":"14",
+        "Numero_Camere":1,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Dieci",
+        "Indirizzo":"Lgo Rio De Janeiro",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":29
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Lugano",
+        "Indirizzo":"Via Astolfo",
+        "Categoria":"6",
+        "Numero_Camere":3,
+        "Numero_Postiletto":21
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Vienna",
+        "Indirizzo":"Via Astolfo",
+        "Categoria":"5",
+        "Numero_Camere":3,
+        "Numero_Postiletto":23
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Sunset City",
+        "Indirizzo":"Via Colombo Giuseppe",
+        "Categoria":"14",
+        "Numero_Camere":3,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Oasi Village Hotel",
+        "Indirizzo":"Vle Lombardia",
+        "Categoria":"20",
+        "Numero_Camere":3,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Majorca",
+        "Indirizzo":"Via Pellizzone Andrea",
+        "Categoria":"12",
+        "Numero_Camere":3,
+        "Numero_Postiletto":34
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Citta  Studi",
+        "Indirizzo":"Via Saldini Cesare",
+        "Categoria":"24",
+        "Numero_Camere":3,
+        "Numero_Postiletto":45
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Gamma",
+        "Indirizzo":"Via Valvassori Peroni Carlo",
+        "Categoria":"85",
+        "Numero_Camere":3,
+        "Numero_Postiletto":58
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Bianca Croce",
+        "Indirizzo":"Via Paladini Ettore",
+        "Categoria":"7",
+        "Numero_Camere":3,
+        "Numero_Postiletto":63
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Iride",
+        "Indirizzo":"Via Porpora Nicola Antonio",
+        "Categoria":"170",
+        "Numero_Camere":2,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ambra",
+        "Indirizzo":"Via Caccianino Antonio",
+        "Categoria":"10",
+        "Numero_Camere":1,
+        "Numero_Postiletto":8
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Leonardo Da Vinci",
+        "Indirizzo":"Pza Leonardo Da Vinci",
+        "Categoria":"10",
+        "Numero_Camere":1,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotela Alba",
+        "Indirizzo":"Via Porpora Nicola Antonio",
+        "Categoria":"132",
+        "Numero_Camere":1,
+        "Numero_Postiletto":7
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Galla",
+        "Indirizzo":"Via Teodosio",
+        "Categoria":"37",
+        "Numero_Camere":1,
+        "Numero_Postiletto":8
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Montecarlo",
+        "Indirizzo":"Via Vallazze",
+        "Categoria":"39",
+        "Numero_Camere":1,
+        "Numero_Postiletto":19
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Susa",
+        "Indirizzo":"Vle Argonne",
+        "Categoria":"14",
+        "Numero_Camere":3,
+        "Numero_Postiletto":19
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Rossovino",
+        "Indirizzo":"Via Bartolozzi Francesco",
+        "Categoria":"9",
+        "Numero_Camere":1,
+        "Numero_Postiletto":7
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"San Giovanni",
+        "Indirizzo":"Via Reina Francesco",
+        "Categoria":"18",
+        "Numero_Camere":1,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Vittoria",
+        "Indirizzo":"Via Calvi Pietro",
+        "Categoria":"32",
+        "Numero_Camere":4,
+        "Numero_Postiletto":40
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Perugino",
+        "Indirizzo":"Via Perugino",
+        "Categoria":"12",
+        "Numero_Camere":3,
+        "Numero_Postiletto":32
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residencemignoncase Tre",
+        "Indirizzo":"Via Melloni Macedonio",
+        "Categoria":"17",
+        "Numero_Camere":3,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Arco",
+        "Indirizzo":"Pza Santa Maria Del Suffragio",
+        "Categoria":"3",
+        "Numero_Camere":2,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Castelletto",
+        "Indirizzo":"Via Archimede",
+        "Categoria":"79",
+        "Numero_Camere":2,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Dateo",
+        "Indirizzo":"Vle Piceno",
+        "Categoria":"33",
+        "Numero_Camere":2,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel De Albertis",
+        "Indirizzo":"Via De Albertis Sebastiano",
+        "Categoria":"7",
+        "Numero_Camere":2,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Delizia",
+        "Indirizzo":"Via Archimede",
+        "Categoria":" 86/88",
+        "Numero_Camere":2,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Dover",
+        "Indirizzo":"Via Sottocorno Pasquale",
+        "Categoria":"8",
+        "Numero_Camere":2,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"La Caravella",
+        "Indirizzo":"Via Hajech Camillo",
+        "Categoria":"18",
+        "Numero_Camere":2,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Xxii Marzo",
+        "Indirizzo":"Pza Santa Maria Del Suffragio",
+        "Categoria":"3",
+        "Numero_Camere":2,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Pensione Lanterna",
+        "Indirizzo":"Via Archimede",
+        "Categoria":"121",
+        "Numero_Camere":1,
+        "Numero_Postiletto":7
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel America",
+        "Indirizzo":"Cso Ventidue Marzo",
+        "Categoria":"32",
+        "Numero_Camere":1,
+        "Numero_Postiletto":9
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel El Diablo",
+        "Indirizzo":"Cso Ventidue Marzo",
+        "Categoria":"43",
+        "Numero_Camere":1,
+        "Numero_Postiletto":9
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Una Hotel Mediterraneo",
+        "Indirizzo":"Via Muratori Lodovico",
+        "Categoria":"14",
+        "Numero_Camere":4,
+        "Numero_Postiletto":93
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Di Porta Romana",
+        "Indirizzo":"Via Papi Lazzaro",
+        "Categoria":"18",
+        "Numero_Camere":3,
+        "Numero_Postiletto":36
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence L M5",
+        "Indirizzo":"Via Muratori Lodovico",
+        "Categoria":"5",
+        "Numero_Camere":3,
+        "Numero_Postiletto":24
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Sigieri",
+        "Indirizzo":"Via Sigieri Goffredo",
+        "Categoria":"3",
+        "Numero_Camere":3,
+        "Numero_Postiletto":19
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Mec Hotel",
+        "Indirizzo":"Via Tito Livio",
+        "Categoria":"4",
+        "Numero_Camere":3,
+        "Numero_Postiletto":40
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Molise2",
+        "Indirizzo":"Via Cadibona",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":30
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Novotel Milano Linate Aeroporto",
+        "Indirizzo":"Via Mecenate",
+        "Categoria":"121",
+        "Numero_Camere":4,
+        "Numero_Postiletto":208
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Futura",
+        "Indirizzo":"Via Montessori Maria",
+        "Categoria":"14",
+        "Numero_Camere":4,
+        "Numero_Postiletto":56
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Starhotels Business Palace",
+        "Indirizzo":"Via Gaggia Pietro",
+        "Categoria":"3",
+        "Numero_Camere":4,
+        "Numero_Postiletto":259
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Corvetto Residence Porto Di Mare",
+        "Indirizzo":"Via Osimo Augusto",
+        "Categoria":"10",
+        "Numero_Camere":4,
+        "Numero_Postiletto":64
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mistral",
+        "Indirizzo":"Via Toffetti Vincenzo",
+        "Categoria":"4",
+        "Numero_Camere":3,
+        "Numero_Postiletto":26
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Brenta Milano",
+        "Indirizzo":"Vle Brenta",
+        "Categoria":"33",
+        "Numero_Camere":2,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Corvetto",
+        "Indirizzo":"Ple Corvetto Luigi Emanuele",
+        "Categoria":"5",
+        "Numero_Camere":1,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Del Sud",
+        "Indirizzo":"Cso Lodi",
+        "Categoria":"74",
+        "Numero_Camere":1,
+        "Numero_Postiletto":27
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel D Este",
+        "Indirizzo":"Vle Bligny",
+        "Categoria":"23",
+        "Numero_Camere":4,
+        "Numero_Postiletto":84
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Liberty",
+        "Indirizzo":"Vle Bligny",
+        "Categoria":"56",
+        "Numero_Camere":4,
+        "Numero_Postiletto":58
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel \"La Vignetta\"",
+        "Indirizzo":"Via Custodi Pietro",
+        "Categoria":"2",
+        "Numero_Camere":1,
+        "Numero_Postiletto":31
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Grand Visconti Palace",
+        "Indirizzo":"Vle Isonzo",
+        "Categoria":"14",
+        "Numero_Camere":4,
+        "Numero_Postiletto":172
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mayor",
+        "Indirizzo":"Vle Isonzo",
+        "Categoria":"2",
+        "Numero_Camere":4,
+        "Numero_Postiletto":60
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Five",
+        "Indirizzo":"Cso Lodi",
+        "Categoria":"4",
+        "Numero_Camere":3,
+        "Numero_Postiletto":21
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Piacenza",
+        "Indirizzo":"Via Piacenza",
+        "Categoria":"4",
+        "Numero_Camere":3,
+        "Numero_Postiletto":24
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Arco Romana",
+        "Indirizzo":"Vle Sabotino",
+        "Categoria":"16",
+        "Numero_Camere":2,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Palladio",
+        "Indirizzo":"Via Palladio Andrea",
+        "Categoria":"8",
+        "Numero_Camere":1,
+        "Numero_Postiletto":48
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Rex",
+        "Indirizzo":"Via Marco D'Agrate",
+        "Categoria":"35",
+        "Numero_Camere":3,
+        "Numero_Postiletto":52
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Alessander",
+        "Indirizzo":"Via Cortina D'Ampezzo",
+        "Categoria":"17",
+        "Numero_Camere":2,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"",
+        "Indirizzo":"Via Brembo",
+        "Categoria":"27",
+        "Numero_Camere":2,
+        "Numero_Postiletto":55
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Mihotel",
+        "Indirizzo":"Via Dei Fontanili",
+        "Categoria":"26",
+        "Numero_Camere":4,
+        "Numero_Postiletto":57
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Apollo",
+        "Indirizzo":"Via Ripamonti Giuseppe",
+        "Categoria":"102",
+        "Numero_Camere":2,
+        "Numero_Postiletto":18
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Garden",
+        "Indirizzo":"Via Rutilia",
+        "Categoria":"6",
+        "Numero_Camere":2,
+        "Numero_Postiletto":23
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Liguria",
+        "Indirizzo":"Via Ripamonti Giuseppe",
+        "Categoria":"134",
+        "Numero_Camere":2,
+        "Numero_Postiletto":28
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Atahotel Quark",
+        "Indirizzo":"Via Lampedusa",
+        "Categoria":"11",
+        "Numero_Camere":4,
+        "Numero_Postiletto":328
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Quark Due",
+        "Indirizzo":"Via Lampedusa",
+        "Categoria":" 11/A",
+        "Numero_Camere":4,
+        "Numero_Postiletto":106
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Giardino",
+        "Indirizzo":"Via Dei Missaglia",
+        "Categoria":"14",
+        "Numero_Camere":3,
+        "Numero_Postiletto":19
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Autosole 2",
+        "Indirizzo":"Via Palmieri Nicola",
+        "Categoria":"64",
+        "Numero_Camere":3,
+        "Numero_Postiletto":23
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Dei Fiori",
+        "Indirizzo":"Via Renzo E Lucia",
+        "Categoria":"14",
+        "Numero_Camere":3,
+        "Numero_Postiletto":53
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Mini Hotel La Spezia",
+        "Indirizzo":"Via Spezia",
+        "Categoria":"25",
+        "Numero_Camere":4,
+        "Numero_Postiletto":76
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residenza Chiaralba",
+        "Indirizzo":"Via Pomponazzi Pietro",
+        "Categoria":"3",
+        "Numero_Camere":3,
+        "Numero_Postiletto":7
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Marte",
+        "Indirizzo":"Via Sforza Ascanio",
+        "Categoria":"81",
+        "Numero_Camere":2,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mercurio",
+        "Indirizzo":"Via Sforza Ascanio",
+        "Categoria":"73",
+        "Numero_Camere":2,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Alga",
+        "Indirizzo":"Via Del Mare",
+        "Categoria":"93",
+        "Numero_Camere":3,
+        "Numero_Postiletto":87
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Maison Borella",
+        "Indirizzo":"Alz Naviglio Grande",
+        "Categoria":"8",
+        "Numero_Camere":4,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Art Hotel Navigli",
+        "Indirizzo":"Via Fumagalli Angelo Carlo",
+        "Categoria":"4",
+        "Numero_Camere":4,
+        "Numero_Postiletto":103
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Minerva",
+        "Indirizzo":"Cso Colombo Cristoforo",
+        "Categoria":"15",
+        "Numero_Camere":3,
+        "Numero_Postiletto":44
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"La Darsena",
+        "Indirizzo":"Via Vigevano",
+        "Categoria":"13",
+        "Numero_Camere":3,
+        "Numero_Postiletto":75
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Idea Hotel Milano Watttredici",
+        "Indirizzo":"Via Watt Giacomo",
+        "Categoria":"13",
+        "Numero_Camere":4,
+        "Numero_Postiletto":87
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Green House Residence",
+        "Indirizzo":"Vle Famagosta",
+        "Categoria":"48",
+        "Numero_Camere":4,
+        "Numero_Postiletto":54
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Green House",
+        "Indirizzo":"Vle Famagosta",
+        "Categoria":"50",
+        "Numero_Camere":3,
+        "Numero_Postiletto":45
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel C� Bianca Corte Del Naviglio",
+        "Indirizzo":"Via Lodovico Il Moro",
+        "Categoria":"117",
+        "Numero_Camere":4,
+        "Numero_Postiletto":51
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Giambellino Di Laura Fiamberti",
+        "Indirizzo":"Via Giambellino",
+        "Categoria":"9",
+        "Numero_Camere":2,
+        "Numero_Postiletto":9
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Mercure Hotel",
+        "Indirizzo":"Via Orseolo Pietro",
+        "Categoria":"1",
+        "Numero_Camere":4,
+        "Numero_Postiletto":59
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Nhow",
+        "Indirizzo":"Via Tortona",
+        "Categoria":"35",
+        "Numero_Camere":4,
+        "Numero_Postiletto":244
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Des Etranger S",
+        "Indirizzo":"Via Sirte",
+        "Categoria":"9",
+        "Numero_Camere":3,
+        "Numero_Postiletto":94
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Idea Hotel Milano Lorenteggio",
+        "Indirizzo":"Via Lorenteggio",
+        "Categoria":"278",
+        "Numero_Camere":4,
+        "Numero_Postiletto":128
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Capitol Millennium",
+        "Indirizzo":"Via Cimarosa Domenico",
+        "Categoria":"6",
+        "Numero_Camere":4,
+        "Numero_Postiletto":66
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Washington",
+        "Indirizzo":"Via Washington Giorgio",
+        "Categoria":"23",
+        "Numero_Camere":4,
+        "Numero_Postiletto":34
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Marriot Hotel",
+        "Indirizzo":"Via Washington Giorgio",
+        "Categoria":"66",
+        "Numero_Camere":4,
+        "Numero_Postiletto":323
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Studio Inn Art Milano De Ageli",
+        "Indirizzo":"Via Dei Gracchi",
+        "Categoria":"30",
+        "Numero_Camere":4,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"R.T.A. Atahotel De Angeli",
+        "Indirizzo":"Via Trivulzio Antonio Tolomeo",
+        "Categoria":"8",
+        "Numero_Camere":4,
+        "Numero_Postiletto":68
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Panizza",
+        "Indirizzo":"Via Panizza Bartolomeo",
+        "Categoria":"5",
+        "Numero_Camere":3,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Piemonte",
+        "Indirizzo":"Via Settimo Ruggiero",
+        "Categoria":"1",
+        "Numero_Camere":3,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Metro",
+        "Indirizzo":"Cso Vercelli",
+        "Categoria":"61",
+        "Numero_Camere":3,
+        "Numero_Postiletto":40
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Cimarosa",
+        "Indirizzo":"Via Cimarosa Domenico",
+        "Categoria":"19",
+        "Numero_Camere":3,
+        "Numero_Postiletto":23
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"My Hotel Milano",
+        "Indirizzo":"Via Trieste",
+        "Categoria":"15",
+        "Numero_Camere":2,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Amalfi",
+        "Indirizzo":"Via Quarnero",
+        "Categoria":"4",
+        "Numero_Camere":1,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Ferrari",
+        "Indirizzo":"Cso Vercelli",
+        "Categoria":"55",
+        "Numero_Camere":1,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Calais",
+        "Indirizzo":"Via Washington Giorgio",
+        "Categoria":"26",
+        "Numero_Camere":1,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Villa Giovanna",
+        "Indirizzo":"Via Washington Giorgio",
+        "Categoria":"42",
+        "Numero_Camere":1,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Rubens",
+        "Indirizzo":"Via Rubens Pietro",
+        "Categoria":"21",
+        "Numero_Camere":4,
+        "Numero_Postiletto":87
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Desenzano",
+        "Indirizzo":"Via Desenzano",
+        "Categoria":"12",
+        "Numero_Camere":3,
+        "Numero_Postiletto":60
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Edy",
+        "Indirizzo":"Via Delle Forze Armate",
+        "Categoria":"8",
+        "Numero_Camere":1,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Emmy",
+        "Indirizzo":"Via Fra' Galgario",
+        "Categoria":"4",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Gambara",
+        "Indirizzo":"Via Fra' Galgario",
+        "Categoria":"4",
+        "Numero_Camere":1,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Astoria",
+        "Indirizzo":"Vle Murillo S.B.",
+        "Categoria":"9",
+        "Numero_Camere":4,
+        "Numero_Postiletto":72
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Osoppo",
+        "Indirizzo":"Via Frassinetti Romeo",
+        "Categoria":"2",
+        "Numero_Camere":4,
+        "Numero_Postiletto":25
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Wagner",
+        "Indirizzo":"Via Buonarroti Michelangelo",
+        "Categoria":"13",
+        "Numero_Camere":4,
+        "Numero_Postiletto":49
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Domenichino",
+        "Indirizzo":"Via Domenichino",
+        "Categoria":"41",
+        "Numero_Camere":3,
+        "Numero_Postiletto":73
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Nuovo Marghera",
+        "Indirizzo":"Via Marghera",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":50
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Colonna",
+        "Indirizzo":"Via Colonna Vittoria",
+        "Categoria":"48",
+        "Numero_Camere":3,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Portello",
+        "Indirizzo":"Via Ghiberti Lorenzo",
+        "Categoria":"1",
+        "Numero_Camere":3,
+        "Numero_Postiletto":16
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Le Quercie",
+        "Indirizzo":"Via Jacopo Della Quercia",
+        "Categoria":"6",
+        "Numero_Camere":2,
+        "Numero_Postiletto":14
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Murillo",
+        "Indirizzo":"Vle Murillo S.B.",
+        "Categoria":"22",
+        "Numero_Camere":2,
+        "Numero_Postiletto":25
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Pensione Fiorella",
+        "Indirizzo":"Via Marghera",
+        "Categoria":"14",
+        "Numero_Camere":2,
+        "Numero_Postiletto":20
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Gianni",
+        "Indirizzo":"Via Carcano Filippo",
+        "Categoria":"47",
+        "Numero_Camere":1,
+        "Numero_Postiletto":8
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel   Leonardo",
+        "Indirizzo":"Via Carcano Filippo",
+        "Categoria":"37",
+        "Numero_Camere":1,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Amendola Fiera",
+        "Indirizzo":"Via Carcano Filippo",
+        "Categoria":"39",
+        "Numero_Camere":1,
+        "Numero_Postiletto":11
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel San Siro Fiera",
+        "Indirizzo":"Via Novara",
+        "Categoria":"371",
+        "Numero_Camere":2,
+        "Numero_Postiletto":18
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Silver",
+        "Indirizzo":"Via Lombardi Riccardo",
+        "Categoria":"11",
+        "Numero_Camere":4,
+        "Numero_Postiletto":75
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Idea Hotel Milano San Siro",
+        "Indirizzo":"Via Airaghi Gaetano",
+        "Categoria":"125",
+        "Numero_Camere":4,
+        "Numero_Postiletto":234
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Melia  Milano",
+        "Indirizzo":"Via Masaccio",
+        "Categoria":"19",
+        "Numero_Camere":5,
+        "Numero_Postiletto":288
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Montebianco",
+        "Indirizzo":"Via Monte Rosa",
+        "Categoria":"90",
+        "Numero_Camere":4,
+        "Numero_Postiletto":44
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Mini Hotel Portello",
+        "Indirizzo":"Via Silva Guglielmo",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":96
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Campion",
+        "Indirizzo":"Vle Berengario",
+        "Categoria":"3",
+        "Numero_Camere":3,
+        "Numero_Postiletto":27
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Lido",
+        "Indirizzo":"Via Galli Riccardo",
+        "Categoria":"8",
+        "Numero_Camere":3,
+        "Numero_Postiletto":27
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Oro Blu",
+        "Indirizzo":"Ple Lotto Lorenzo",
+        "Categoria":"14",
+        "Numero_Camere":3,
+        "Numero_Postiletto":27
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Le Corti",
+        "Indirizzo":"Pza Buonarroti Michelangelo",
+        "Categoria":"31",
+        "Numero_Camere":2,
+        "Numero_Postiletto":23
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Fiera Congressi",
+        "Indirizzo":"Via Spinola Ambrogio",
+        "Categoria":"9",
+        "Numero_Camere":3,
+        "Numero_Postiletto":29
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Bonola",
+        "Indirizzo":"Via Torrazza",
+        "Categoria":"15",
+        "Numero_Camere":2,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"",
+        "Indirizzo":"Via Ippodromo",
+        "Categoria":"8",
+        "Numero_Camere":2,
+        "Numero_Postiletto":116
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Nasco",
+        "Indirizzo":"Cso Sempione",
+        "Categoria":"69",
+        "Numero_Camere":4,
+        "Numero_Postiletto":83
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Enterprise Hotel",
+        "Indirizzo":"Cso Sempione",
+        "Categoria":"91",
+        "Numero_Camere":4,
+        "Numero_Postiletto":113
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Admiral",
+        "Indirizzo":"Via Domodossola",
+        "Categoria":"16",
+        "Numero_Camere":4,
+        "Numero_Postiletto":60
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Mini Hotel Tiziano",
+        "Indirizzo":"Via Tiziano Vecellio",
+        "Categoria":"6",
+        "Numero_Camere":4,
+        "Numero_Postiletto":54
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Scala Nord",
+        "Indirizzo":"Via Ferrucci Francesco",
+        "Categoria":"10",
+        "Numero_Camere":3,
+        "Numero_Postiletto":71
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Johnny",
+        "Indirizzo":"Via Prati Giovanni",
+        "Categoria":"6",
+        "Numero_Camere":3,
+        "Numero_Postiletto":31
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Town House 12",
+        "Indirizzo":"Via Gerusalemme",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mozart",
+        "Indirizzo":"Via Gerusalemme",
+        "Categoria":"6",
+        "Numero_Camere":4,
+        "Numero_Postiletto":119
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Una Hotel Scandinavia",
+        "Indirizzo":"Via Fauche' Giovanni Battista",
+        "Categoria":"15",
+        "Numero_Camere":4,
+        "Numero_Postiletto":153
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Hermitage",
+        "Indirizzo":"Via Messina",
+        "Categoria":"10",
+        "Numero_Camere":4,
+        "Numero_Postiletto":131
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Poliziano Fiera",
+        "Indirizzo":"Via Poliziano",
+        "Categoria":"11",
+        "Numero_Camere":4,
+        "Numero_Postiletto":100
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel San Guido",
+        "Indirizzo":"Via Farini Carlo",
+        "Categoria":" 1/A",
+        "Numero_Camere":3,
+        "Numero_Postiletto":31
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Losanna",
+        "Indirizzo":"Via Piero Della Francesca",
+        "Categoria":"39",
+        "Numero_Camere":3,
+        "Numero_Postiletto":24
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Piccolo Hotel",
+        "Indirizzo":"Via Piero Della Francesca",
+        "Categoria":"60",
+        "Numero_Camere":3,
+        "Numero_Postiletto":31
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Parma",
+        "Indirizzo":"Via Piero Della Francesca",
+        "Categoria":"48",
+        "Numero_Camere":2,
+        "Numero_Postiletto":25
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Locanda Gelsomina",
+        "Indirizzo":"Via Piero Della Francesca",
+        "Categoria":" 4/7",
+        "Numero_Camere":2,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mignon",
+        "Indirizzo":"Via Saronno",
+        "Categoria":"5",
+        "Numero_Camere":1,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Regency",
+        "Indirizzo":"Via Arimondi Giuseppe",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":71
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Bogart 2",
+        "Indirizzo":"Via Aosta",
+        "Categoria":"2",
+        "Numero_Camere":3,
+        "Numero_Postiletto":15
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Certosa",
+        "Indirizzo":"Vle Certosa",
+        "Categoria":"26",
+        "Numero_Camere":3,
+        "Numero_Postiletto":25
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Corallo",
+        "Indirizzo":"Via Cesena",
+        "Categoria":"20",
+        "Numero_Camere":3,
+        "Numero_Postiletto":35
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Berlino",
+        "Indirizzo":"Via Plana Giovanni Antonio",
+        "Categoria":"33",
+        "Numero_Camere":3,
+        "Numero_Postiletto":47
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mac Mahon",
+        "Indirizzo":"Via Mac Mahon",
+        "Categoria":" 45/A",
+        "Numero_Camere":2,
+        "Numero_Postiletto":24
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Mac Mahon",
+        "Indirizzo":"Via Mac Mahon",
+        "Categoria":"45",
+        "Numero_Camere":2,
+        "Numero_Postiletto":24
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Mary Hotel Fiera",
+        "Indirizzo":"Via Principe Eugenio",
+        "Categoria":"45",
+        "Numero_Camere":2,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Hotel Residence Cenisio",
+        "Indirizzo":"Via Calvino",
+        "Categoria":"21",
+        "Numero_Camere":2,
+        "Numero_Postiletto":42
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Mirage",
+        "Indirizzo":"Via Casella Giovanni Battista",
+        "Categoria":"61",
+        "Numero_Camere":4,
+        "Numero_Postiletto":86
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Double Tree By Hilton Milan",
+        "Indirizzo":"Via Ludovico Di Breme",
+        "Categoria":"77",
+        "Numero_Camere":4,
+        "Numero_Postiletto":240
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Milan Suite Hotel",
+        "Indirizzo":"Via Varesina",
+        "Categoria":"124",
+        "Numero_Camere":4,
+        "Numero_Postiletto":40
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Radisson Blu Hotel Milan",
+        "Indirizzo":"Via Villapizzone",
+        "Categoria":"24",
+        "Numero_Camere":4,
+        "Numero_Postiletto":250
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Raffaello",
+        "Indirizzo":"Vle Certosa",
+        "Categoria":"108",
+        "Numero_Camere":4,
+        "Numero_Postiletto":126
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Accademia",
+        "Indirizzo":"Vle Certosa",
+        "Categoria":"68",
+        "Numero_Camere":4,
+        "Numero_Postiletto":66
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Accursio",
+        "Indirizzo":"Vle Certosa",
+        "Categoria":"88",
+        "Numero_Camere":3,
+        "Numero_Postiletto":27
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Bel Sit",
+        "Indirizzo":"Via Gallarate",
+        "Categoria":"2",
+        "Numero_Camere":2,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence 2Gi",
+        "Indirizzo":"Via Ajraghi Cesare",
+        "Categoria":"30",
+        "Numero_Camere":2,
+        "Numero_Postiletto":17
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Sorrento",
+        "Indirizzo":"Vle Espinasse Carlo",
+        "Categoria":"22",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Arizona",
+        "Indirizzo":"Via Bressanone",
+        "Categoria":" 4/A",
+        "Numero_Camere":4,
+        "Numero_Postiletto":80
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"The Hub",
+        "Indirizzo":"Via Polonia",
+        "Categoria":"10",
+        "Numero_Camere":4,
+        "Numero_Postiletto":162
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"",
+        "Indirizzo":"Via Stephenson",
+        "Categoria":"55",
+        "Numero_Camere":4,
+        "Numero_Postiletto":256
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"",
+        "Indirizzo":"Via Venezia Giulia",
+        "Categoria":"9",
+        "Numero_Camere":4,
+        "Numero_Postiletto":115
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Atahotel Executive",
+        "Indirizzo":"Vle Sturzo Don Luigi",
+        "Categoria":"45",
+        "Numero_Camere":4,
+        "Numero_Postiletto":420
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Four Points Sheraton Milan Centre",
+        "Indirizzo":"Via Cardano Gerolamo",
+        "Categoria":"1",
+        "Numero_Camere":4,
+        "Numero_Postiletto":254
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Una Hotel Tocq",
+        "Indirizzo":"Via Di Tocqueville Alessio",
+        "Categoria":"7",
+        "Numero_Camere":4,
+        "Numero_Postiletto":109
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Grand Hotel Verdi",
+        "Indirizzo":"Via Gioia Melchiorre",
+        "Categoria":"6",
+        "Numero_Camere":4,
+        "Numero_Postiletto":99
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ac Milano",
+        "Indirizzo":"Via Tazzoli Enrico",
+        "Categoria":"2",
+        "Numero_Camere":4,
+        "Numero_Postiletto":160
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Hua Xia Milano",
+        "Indirizzo":"Via Tazzoli Enrico",
+        "Categoria":"7",
+        "Numero_Camere":4,
+        "Numero_Postiletto":23
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Maison Moschino",
+        "Indirizzo":"Vle Monte Grappa",
+        "Categoria":"12",
+        "Numero_Camere":4,
+        "Numero_Postiletto":65
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Atahotel The Big",
+        "Indirizzo":"Via De Cristoforis Carlo",
+        "Categoria":"6",
+        "Numero_Camere":4,
+        "Numero_Postiletto":125
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Cervo",
+        "Indirizzo":"Ple Principessa Clotilde",
+        "Categoria":"10",
+        "Numero_Camere":3,
+        "Numero_Postiletto":57
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Trieste",
+        "Indirizzo":"Via Marco Polo",
+        "Categoria":"13",
+        "Numero_Camere":2,
+        "Numero_Postiletto":27
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Bonnet",
+        "Indirizzo":"Via Bonnet Nino",
+        "Categoria":"6",
+        "Numero_Camere":2,
+        "Numero_Postiletto":19
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Class",
+        "Indirizzo":"Via Cornalia Emilio",
+        "Categoria":"7",
+        "Numero_Camere":2,
+        "Numero_Postiletto":26
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Holiday Inn Milan Garibaldi Station",
+        "Indirizzo":"Via Bassi Ugo",
+        "Categoria":"1",
+        "Numero_Camere":4,
+        "Numero_Postiletto":134
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Casa Albergo Residence Zara Lagosta",
+        "Indirizzo":"Vle Zara",
+        "Categoria":"1",
+        "Numero_Camere":4,
+        "Numero_Postiletto":32
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Mirage Tre",
+        "Indirizzo":"Via Lepontina",
+        "Categoria":"8",
+        "Numero_Camere":3,
+        "Numero_Postiletto":60
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"R.T.A. Cola Montano",
+        "Indirizzo":"Via Cola Montano",
+        "Categoria":"29",
+        "Numero_Camere":2,
+        "Numero_Postiletto":21
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Lario",
+        "Indirizzo":"Via Lario",
+        "Categoria":"40",
+        "Numero_Camere":1,
+        "Numero_Postiletto":7
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Contessa Jolanda- Attivit� Promiscua 133 Appartamenti (266 Posti Letto) E 9 Camere Albergo Per 18 Posti Letto Per Un Totale Di 284 Posti Letto",
+        "Indirizzo":"Via Murat Gioacchino",
+        "Categoria":"21",
+        "Numero_Camere":4,
+        "Numero_Postiletto":133
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Gala",
+        "Indirizzo":"Vle Zara",
+        "Categoria":"89",
+        "Numero_Camere":3,
+        "Numero_Postiletto":22
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Greco",
+        "Indirizzo":"Via Ugolini",
+        "Categoria":"21",
+        "Numero_Camere":2,
+        "Numero_Postiletto":8
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Novotel Milano Nord",
+        "Indirizzo":"Vle Suzzani Giovanni",
+        "Categoria":"13",
+        "Numero_Camere":4,
+        "Numero_Postiletto":172
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Residence Hotel Siloe",
+        "Indirizzo":"Via Cesari Antonio",
+        "Categoria":"19",
+        "Numero_Camere":4,
+        "Numero_Postiletto":83
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Centro Alberghiero Ornato",
+        "Indirizzo":"Via Ornato Luigi",
+        "Categoria":"64",
+        "Numero_Camere":3,
+        "Numero_Postiletto":144
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ibis Milano Ca  Granda",
+        "Indirizzo":"Vle Suzzani Giovanni",
+        "Categoria":" 13/15",
+        "Numero_Camere":3,
+        "Numero_Postiletto":131
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Albergo Sicilia",
+        "Indirizzo":"Via Benefattori Dell'Ospedale",
+        "Categoria":"24",
+        "Numero_Camere":1,
+        "Numero_Postiletto":10
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Starhotels Tourist",
+        "Indirizzo":"Vle Testi Fulvio",
+        "Categoria":"300",
+        "Numero_Camere":4,
+        "Numero_Postiletto":140
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Sunflower Hotel",
+        "Indirizzo":"Ple Lugano",
+        "Categoria":"10",
+        "Numero_Camere":4,
+        "Numero_Postiletto":75
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Valganna",
+        "Indirizzo":"Via Vare' Giovanni Battista",
+        "Categoria":"32",
+        "Numero_Camere":3,
+        "Numero_Postiletto":36
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Bovisa",
+        "Indirizzo":"Via Broglio Emilio",
+        "Categoria":"28",
+        "Numero_Camere":2,
+        "Numero_Postiletto":7
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Ares",
+        "Indirizzo":"Via Porro Edoardo",
+        "Categoria":"8",
+        "Numero_Camere":3,
+        "Numero_Postiletto":13
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Milton Milano",
+        "Indirizzo":"Via Butti Enrico",
+        "Categoria":"9",
+        "Numero_Camere":4,
+        "Numero_Postiletto":110
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Brivio",
+        "Indirizzo":"Via Brivio Cesare",
+        "Categoria":"33",
+        "Numero_Camere":2,
+        "Numero_Postiletto":12
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Acca Palace",
+        "Indirizzo":"Via Nicotera Giovanni",
+        "Categoria":"9",
+        "Numero_Camere":4,
+        "Numero_Postiletto":41
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel La Residenza",
+        "Indirizzo":"Via Scialoia Vittorio",
+        "Categoria":"3",
+        "Numero_Camere":3,
+        "Numero_Postiletto":60
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Hotel Salus",
+        "Indirizzo":"Via Rossi Pellegrino",
+        "Categoria":"59",
+        "Numero_Camere":1,
+        "Numero_Postiletto":21
+    },
+    {
+        "Tipologia":"Albergo",
+        "Insegna":"Leonardo Da Vinci",
+        "Indirizzo":"Via Senigallia",
+        "Categoria":"6",
+        "Numero_Camere":4,
+        "Numero_Postiletto":298
+    },
+    {
+        "Tipologia":"Residence",
+        "Insegna":"Il Leonardo Da Vinci",
+        "Indirizzo":"Via Senigallia",
+        "Categoria":"6",
+        "Numero_Camere":4,
+        "Numero_Postiletto":423
+    }
+]
