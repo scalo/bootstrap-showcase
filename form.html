@@ -25,7 +25,8 @@ $(document).ready(function() {
 	        $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
 	    },
 	    unhighlight: function (element, errorClass, validClass) {
-	        $(element).closest('.form-group').removeClass('has-error').addClass('has-success');;
+// 	        $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
+	    	$(element).closest('.form-group').removeClass('has-error');
 	    },
 	    errorPlacement: function (error, element) {
  	       error.insertAfter(element.parent());
@@ -33,7 +34,7 @@ $(document).ready(function() {
 	});
 	
 	
-	$('#form').validate({
+	var $validator = $('#form').validate({
 	    rules: {
 	        email: {
 	            required: true,
@@ -48,6 +49,13 @@ $(document).ready(function() {
 	        }
 	 	}
 	});
+	
+	$('#reset').on('click', function(event) {
+		  // reset form, validator, remove error class
+		  $validator.resetForm();
+		  $(".has-error").removeClass("has-error");
+	});
+	
 } );
 		
 </script>
@@ -57,33 +65,32 @@ $(document).ready(function() {
 	<div class="container">
 		<form class="form-horizontal" id="form">
 			<div class="form-group">
-				<label class="col-sm-2 control-label" for="exampleInputEmail1">Email address</label>
+				<label class="col-sm-2 control-label" for="email">Email address</label>
 				<div class="col-md-4">
 					<input name="email" id="email" type="email" class="form-control" placeholder="Enter email">
 				</div>
-				<span class="help-block"></span> 
 			</div>
 			<div class="form-group">
-				<label class="col-sm-2 control-label" for="exampleInputPassword1">Password</label>
+				<label class="col-sm-2 control-label" for="password">Password</label>
 				<div class="col-md-4">
 					<input name="password" id="password" type="password" class="form-control"  placeholder="Password">
 				</div>
 			</div>
-			<div class="form-group">
-				<label class="col-sm-2 control-label" for="exampleInputFile">File input</label>
-				<div class="col-md-4">
+			<div class="form-group ">
+				<label class="col-sm-2 control-label" for="file">File input</label>
+				<div class="col-md-4" >
 					<input type="file" id="file">
 				</div>
 			</div>
 			<div class="form-group">
-				<div class="col-sm-offset-2 col-md-4">
-					<div class="checkbox">
-						<label> <input name="remember" id="remember" type="checkbox"> Remember me </label>
-					</div>
+				<label class="col-sm-2 control-label" for="remember">File input</label>
+				<div class="col-md-1">
+					<input class="form-control" name="remember" id="remember" type="checkbox">
 				</div>
 			</div>
 			<div class="form-group">
 				<div class="col-sm-offset-2 col-md-4">
+					<button name="reset" id="reset" class="btn btn-danger" type="reset">Reset</button>
 					<button type="submit" class="btn btn-primary">Submit</button>
 				</div>
 			</div>

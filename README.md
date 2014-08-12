@@ -15,26 +15,36 @@ line break
 Text attributes *italic*,
 **bold**, `monospace`.
 
-A [link](http://example.com).
+
+### Links
+
+A [link](http://scalosoft.com).
 <<<   No space between ] and (  >>>
 
-Shopping list:
+### Images
+![image](./images/bootstrap.png)
+
+### Unordered lists
 
 * apples
 * oranges
 * pears
 
-Numbered list:
+### Ordered list
 
 1. apples
 2. oranges
 3. pears
 
+### Styles
+
+**bold**
+
 ~~erased~~
 
 _italic_
 
-*Tables*
+### Tables
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -42,10 +52,18 @@ _italic_
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+### Code formatting
 
-```
-function dummy{
+```javascript
+function dummy {
 	var a = 4*4;
 	return a;
 }
 ```
+
+
+###Checklist
+
+- [ ] pippo
+- [x] pluto
+- [ ] paperino
