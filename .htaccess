@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule api/hello/(.*)$  api/v1/hello.php?request=$1 [QSA,NC,L]
+RewriteRule api/model/(.*)$  api/v1/model.php?method=$1 [QSA,NC,L]
+
+</IfModule>

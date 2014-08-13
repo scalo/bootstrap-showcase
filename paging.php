@@ -23,13 +23,7 @@
 	}
 	
 	$query_count = "SELECT count(*) FROM alberghi $where";
-	$query = "SELECT
-		(SELECT COUNT(*)
-        FROM alberghi AS t2
-        WHERE t2.insegna <= t1.insegna
-        order by t2.insegna
-        ) AS id ,
-		t1.*
+	$query = "SELECT id,tipologia,insegna,indirizzo,categoria,num_camere,num_postiletto
 		FROM alberghi AS t1
 		$where ORDER BY t1.insegna  $limit ";
 
