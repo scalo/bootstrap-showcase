@@ -106,13 +106,11 @@
 		
 		$('#btn-new').on('click', function(event) {
 			$('#dialog-new').modal('show');
-			//$('#dialog-new .modal-title').text("Inserimento");
 		});
 		
 		$('#btn-edit').on('click', function(event) {
 			var id = $('#datatable tbody tr.active').children('td:eq(0)').text(); 
 			if(id){
-				$('#dialog-edit').modal('show');
 				$.ajax({
 				      type: "GET",
 				      url: "api/model/load/"+id,
@@ -125,15 +123,12 @@
 				          $inputs.filter(function() {
 				            return key == this.name;
 				          }).val(value);
-				        });				        
+				        });	
 				      },
 				      error: function (xhr, ajaxOptions, thrownError) {
 				        console.error(xhr.status+" "+thrownError);
 				      }
 				});
-//				$('#dialog-edit .modal-title').text("Modifica");
-// 				$("#dialog-edit input[name='id']").closest('.form-group').css('display', '');
-// 				$("#dialog-edit input[name='id']").attr('readonly', true);
 			}
 		});
 		
