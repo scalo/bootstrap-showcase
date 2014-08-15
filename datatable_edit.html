@@ -149,7 +149,6 @@
 			      dataType: "json",
 			      success: function (data) {
 			        console.debug(JSON.stringify(data));
-					//alert("deleted "+JSON.stringify(data));
 					table.ajax.reload(null,false);
 			      },
 			      error: function (xhr, ajaxOptions, thrownError) {
@@ -234,7 +233,6 @@
 			      dataType: "json",
 			      data: {"data":JSON.stringify(values)},
 			      success: function (data) {
-			    	console.debug(JSON.stringify(data));
 			    	$('#dialog-new').modal('hide');
 					table.ajax.reload(null,false);
 			      },
