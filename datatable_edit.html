@@ -3,29 +3,17 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-<title>DataTables Edit Bootstrap 3</title>
-<!-- <style>
-.btn-danger-text {
-	color: #bd362f;
-}
+<title>DataTables Edit Bootstrap3</title>
 
-.btn-danger-text:hover, .btn-danger-text:active, .btn-danger-text.active,
-	.btn-danger-text.disabled, .btn-danger-text[disabled] {
-	color: #bd362f;
-	*color: #a9302a;
-}
-
-.btn-danger-text:active, .btn-danger-text.active {
-	color: #942a25 \9;
-}
-</style> -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap.css">
 
 <style>
+
 .modal {
-	top: 15%;
+	top: 10%;
 }
+
 </style>
 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
@@ -35,9 +23,10 @@
 <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 
 <script type="text/javascript" charset="utf-8">
+	
 	$(document).ready(function() {
 		
-		$('#datatable').dataTable( {
+		var table = $('#datatable').DataTable( {
 			serverSide: true,
 		    ajax: 'paging.php',
 		    "ordering": false,
@@ -45,7 +34,7 @@
 	        "scrollY": "400px",
 	        "scrollCollapse": false,
 		    language: {
-		        search: "Ricerca:",
+		        search: "Ricerca: ",
 		        paginate: {
 		            first:      "Primo",
 		            previous:   "<<",
@@ -79,16 +68,34 @@
 			number: "Necessario valore numerico"
 		};
 		
-		var validator = $('#form-edit').validate({
-		    rules: {
+		var validatorNew=$('#dialog-new form').validate({		 
+			rules: {
 		    	tipologia: "required",
 		    	insegna: "required",
 		    	indirizzo: "required",
-		    	camere: {
+		    	categoria: "required",
+		    	num_camere: {
 		    		required:true,
 		    		number: true
 		    	},
-		    	posti: {
+		    	num_postiletto: {
+		    		required:true,
+		    		number: true
+		    	}   	
+		 	}
+		});
+		
+		var validatorEdit=$('#dialog-edit form').validate({		 
+			rules: {
+		    	tipologia: "required",
+		    	insegna: "required",
+		    	indirizzo: "required",
+		    	categoria: "required",
+		    	num_camere: {
+		    		required:true,
+		    		number: true
+		    	},
+		    	num_postiletto: {
 		    		required:true,
 		    		number: true
 		    	}   	
@@ -99,6 +106,7 @@
 		
 		$('#btn-new').on('click', function(event) {
 			$('#dialog-new').modal('show');
+			//$('#dialog-new .modal-title').text("Inserimento");
 		});
 		
 		$('#btn-edit').on('click', function(event) {
@@ -107,25 +115,25 @@
 				$('#dialog-edit').modal('show');
 				$.ajax({
 				      type: "GET",
-				      url: "api/model/load",
+				      url: "api/model/load/"+id,
 				      dataType: "json",
-				      data: {"id":id},
 				      success: function (data) {
 				        console.debug(JSON.stringify(data));
-				        var $inputs = $('#form-edit  input');
+				        $('#dialog-edit').modal('show');
+				        var $inputs = $('#dialog-edit input');
 				        $.each(data, function(key, value) {
 				          $inputs.filter(function() {
 				            return key == this.name;
 				          }).val(value);
-				        });
+				        });				        
 				      },
 				      error: function (xhr, ajaxOptions, thrownError) {
-				        alert(xhr.status);
-				        alert(thrownError);
+				        console.error(xhr.status+" "+thrownError);
 				      }
 				});
-				//$("#id").val(id);
-				$("#id").attr('readonly', true);
+//				$('#dialog-edit .modal-title').text("Modifica");
+// 				$("#dialog-edit input[name='id']").closest('.form-group').css('display', '');
+// 				$("#dialog-edit input[name='id']").attr('readonly', true);
 			}
 		});
 		
@@ -137,24 +145,110 @@
 			
 		});
 		
+		// DIALOG DELETE
+		$("#dialog-delete button[name='delete']").on('click', function () {			
+			var id = $('#datatable tbody tr.active').children('td:eq(0)').text();
+			$.ajax({
+			      type: "DELETE",
+			      url: "api/model/delete/"+id,
+			      dataType: "json",
+			      success: function (data) {
+			        console.debug(JSON.stringify(data));
+					//alert("deleted "+JSON.stringify(data));
+					table.ajax.reload(null,false);
+			      },
+			      error: function (xhr, ajaxOptions, thrownError) {
+			        console.error(xhr.status +" "+thrownError);
+			      }
+			});
+			$('#dialog-delete').modal('hide');
+		})
+				
+		// DIALOG EDIT
 		$("#dialog-edit").on('show.bs.modal', function (e) {
-			$('#form-edit')[0].reset();
-			validator.resetForm();
+			$('#dialog-edit form')[0].reset();
+			//validator.resetForm();
 			$(".has-error").removeClass("has-error");
 		})
 		
-// 		$("#dialog-edit").on('hide.bs.modal', function (e) {
-// 			$('#form-edit')[0].reset();
-// 			validator.resetForm();
-// 			$(".has-error").removeClass("has-error");
-// 		});
+		$("#dialog-edit button[name='save']").on('click', function (e) {			
+			
+			e.preventDefault();  // se usato type="submit"
+			if(!$('#dialog-edit form').valid()) return;
+			
+			var id = $('#datatable tbody tr.active').children('td:eq(0)').text();
+			var values = [$("#dialog-edit input[name='tipologia']").val(),
+			            $("#dialog-edit input[name='insegna']").val(),
+			            $("#dialog-edit input[name='indirizzo']").val(),
+			            $("#dialog-edit input[name='categoria']").val(),
+			            $("#dialog-edit input[name='num_camere']").val(),
+			            $("#dialog-edit input[name='num_postiletto']").val(),
+			            $("#dialog-edit input[name='id']").val()
+			];
+
+			$.ajax({
+			      type: "POST",
+			      url: "api/model/update/",
+			      dataType: "json",
+			      data: {"data":JSON.stringify(values)},
+			      success: function (data) {
+			        console.debug(JSON.stringify(data));
+			        $('#dialog-edit').modal('hide');
+					table.ajax.reload(null,false);
+			      },
+			      error: function (xhr, ajaxOptions, thrownError) {
+			        alert(xhr.status +" "+thrownError);
+			      }
+			});
+
+		})
 		
 		$('#btn-reset').on('click', function(event) {
 			// reset form, validator, remove error class
-			$('#form-edit')[0].reset();
-			validator.resetForm();
+			$('#dialog-edit form')[0].reset();
+			validatorEdit.resetForm();
 			$(".has-error").removeClass("has-error");
 		});
+		
+		// DIALOG NEW
+		
+		$("#dialog-new").on('hide.bs.modal', function (e) {
+			$('#dialog-new form')[0].reset();
+			validatorNew.resetForm();
+			$(".has-error").removeClass("has-error");
+		});
+		
+		$("#dialog-new button[name='save']").on('click', function (e) {			
+			
+			e.preventDefault();  // se usato type="submit"
+			if(!$('#dialog-new form').valid()) return;
+
+			var id = $('#datatable tbody tr.active').children('td:eq(0)').text();
+			var values = [
+			            $("#dialog-new input[name='tipologia']").val(),
+			            $("#dialog-new input[name='insegna']").val(),
+			            $("#dialog-new input[name='indirizzo']").val(),
+			            $("#dialog-new input[name='categoria']").val(),
+			            $("#dialog-new input[name='num_camere']").val(),
+			            $("#dialog-new input[name='num_postiletto']").val()        
+			];
+
+			$.ajax({
+			      type: "POST",
+			      url: "api/model/save/",
+			      dataType: "json",
+			      data: {"data":JSON.stringify(values)},
+			      success: function (data) {
+			    	console.debug(JSON.stringify(data));
+			    	$('#dialog-new').modal('hide');
+					table.ajax.reload(null,false);
+			      },
+			      error: function (xhr, ajaxOptions, thrownError) {
+			        alert(xhr.status +" "+thrownError);
+			      }
+			});
+
+		})
 		
 	} );
 </script>
@@ -192,84 +286,17 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h3 class="modal-title"><span class="label label-danger">Attenzione</span></h3>
+					<h3 class="modal-title">Cancellazione</h3>
 				</div>
 				<div class="modal-body">L'operazione cancellerà l'elemento selezionato</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-					<a href="#" class="btn btn-danger danger">Delete</a>
+					<button name="cancel" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					<button name="delete" class="btn btn-danger danger">Delete</button>
 				</div>
 			</div>
 		</div>
 	</div>
-	
 
-	
-	
-	<div class="modal" id="dialog-edit" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">
-						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-					</button>
-					<h3 class="modal-title"><span class="label label-success">Modifica</span></h3>
-				</div>
-				<div class="modal-body">
-					<form class="form-horizontal" id="form-edit">
-						<div class="form-group">
-							<label class="col-sm-4 control-label" for="id">Id</label>
-							<div class="col-md-2">
-								<input name="id" id="id" type=text class="form-control uneditable-input">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-sm-4 control-label" for="tipologia">Tipologia</label>
-							<div class="col-md-4">
-								<input name="tipologia" id="tipologia" type=text class="form-control">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-sm-4 control-label" for="insegna">Insegna</label>
-							<div class="col-md-4">
-								<input name="insegna" id="insegna" type="text" class="form-control">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-sm-4 control-label" for="indirizzo">Indirizzo</label>
-							<div class="col-md-4">
-								<input name="indirizzo" id="indirizzo" type="text" class="form-control">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-sm-4 control-label" for="categoria">Categoria</label>
-							<div class="col-md-4">
-								<input name="categoria" id="categoria" type="text" class="form-control">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-sm-4 control-label" for="num_camere">Numero Camere</label>
-							<div class="col-md-4">
-								<input name="num_camere" id="num_camere" type="text" class="form-control">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-sm-4 control-label" for="num_postiletto">Numero Posti letto</label>
-							<div class="col-md-4">
-								<input name="num_postiletto" id="num_postiletto" type="text" class="form-control">
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button id="btn-reset" type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
-							<button id="btn-submit" type="submit" class="btn btn-primary">Save changes</button>
-						</div>
-					</form>
-				</div>
-
-			</div>
-		</div>
-	</div>
-	
 	<div class="modal" id="dialog-new" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -277,55 +304,113 @@
 					<button type="button" class="close" data-dismiss="modal">
 						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
 					</button>
-					<h3 class="modal-title"><span class="label label-primary">Inserimento</span></h3>
+					<h3 class="modal-title">Inserimento</h3>
 				</div>
 				<div class="modal-body">
-					<form class="form-horizontal" id="form-new">
-						<div class="form-group">
-							<label class="col-sm-4 control-label" for="id">Id</label>
-							<div class="col-md-2">
-								<input name="id" id="id" type=text class="form-control uneditable-input">
-							</div>
-						</div>
+					<form class="form-horizontal">
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="tipologia">Tipologia</label>
 							<div class="col-md-4">
-								<input name="tipologia" id="tipologia" type=text class="form-control">
+								<input name="tipologia" type=text class="form-control">
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="insegna">Insegna</label>
 							<div class="col-md-4">
-								<input name="insegna" id="insegna" type="text" class="form-control">
+								<input name="insegna" type="text" class="form-control">
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="indirizzo">Indirizzo</label>
 							<div class="col-md-4">
-								<input name="indirizzo" id="indirizzo" type="text" class="form-control">
+								<input name="indirizzo" type="text" class="form-control">
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="categoria">Categoria</label>
 							<div class="col-md-4">
-								<input name="categoria" id="categoria" type="text" class="form-control">
+								<input name="categoria" type="text" class="form-control">
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="num_camere">Numero Camere</label>
 							<div class="col-md-4">
-								<input name="num_camere" id="num_camere" type="text" class="form-control">
+								<input name="num_camere" type="text" class="form-control">
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="num_postiletto">Numero Posti letto</label>
 							<div class="col-md-4">
-								<input name="num_postiletto" id="num_postiletto" type="text" class="form-control">
+								<input name="num_postiletto" type="text" class="form-control">
 							</div>
 						</div>
 						<div class="modal-footer">
-							<button id="btn-reset" type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
-							<button id="btn-submit" type="submit" class="btn btn-primary">Save changes</button>
+							<button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button name="save" class="btn btn-primary">Save changes</button>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="dialog-edit" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+					</button>
+					<h3 class="modal-title">Modifica</h3>
+				</div>
+				<div class="modal-body">
+					<form class="form-horizontal" >
+						<div class="form-group">
+							<label class="col-sm-4 control-label" for="id">Id</label>
+							<div class="col-md-2">
+								<input name="id" type=text class="form-control uneditable-input">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label" for="tipologia">Tipologia</label>
+							<div class="col-md-4">
+								<input name="tipologia" type=text class="form-control">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label" for="insegna">Insegna</label>
+							<div class="col-md-4">
+								<input name="insegna" type="text" class="form-control">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label" for="indirizzo">Indirizzo</label>
+							<div class="col-md-4">
+								<input name="indirizzo" type="text" class="form-control">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label" for="categoria">Categoria</label>
+							<div class="col-md-4">
+								<input name="categoria" type="text" class="form-control">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label" for="num_camere">Numero Camere</label>
+							<div class="col-md-4">
+								<input name="num_camere" type="text" class="form-control">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label" for="num_postiletto">Numero Posti letto</label>
+							<div class="col-md-4">
+								<input name="num_postiletto" type="text" class="form-control">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button name="save" class="btn btn-primary">Save changes</button>
 						</div>
 					</form>
 				</div>

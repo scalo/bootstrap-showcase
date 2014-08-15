@@ -34,9 +34,11 @@ abstract class RestService {
 		
 		$this->args = explode ( '/', rtrim ( $request, '/' ) );
 		$this->endpoint = array_shift ( $this->args );
-		if (array_key_exists ( 0, $this->args ) && ! is_numeric ( $this->args [0] )) {
-			$this->verb = array_shift ( $this->args );
-		}
+		
+		// no verb in url
+// 		if (array_key_exists ( 0, $this->args ) && ! is_numeric ( $this->args [0] )) {
+// 			$this->verb = array_shift ( $this->args );
+// 		}
 		
 		$this->method = $_SERVER ['REQUEST_METHOD'];
 		if ($this->method == 'POST' && array_key_exists ( 'HTTP_X_HTTP_METHOD', $_SERVER )) {
@@ -69,7 +71,7 @@ abstract class RestService {
 	
 	public function processAPI() {
 		if (( int ) method_exists ( $this, $this->endpoint ) > 0) {
-			return $this->_response ( $this->{$this->endpoint} ( $this->args ) );
+			return $this->_response ( $this->{$this->endpoint} ( $this->args ) ); // reflection
 		}
 		return $this->_response ( "No Endpoint: $this->endpoint", 404 );
 	}

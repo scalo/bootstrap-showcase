@@ -25,7 +25,7 @@
 	$query_count = "SELECT count(*) FROM alberghi $where";
 	$query = "SELECT id,tipologia,insegna,indirizzo,categoria,num_camere,num_postiletto
 		FROM alberghi AS t1
-		$where ORDER BY t1.insegna  $limit ";
+			$where ORDER BY id $limit ";
 
 	$output['query']=$query;
 	

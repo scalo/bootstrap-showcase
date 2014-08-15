@@ -10,14 +10,16 @@ class ModelService extends RestService {
 		parent::__construct($request);
 		try {
 			$this->db = new PDO('sqlite:'.realpath('../../data/db.sqlite'));	
+			$this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 		}catch (PDOException $e){
 			echo $e; die();
 		}
 	}
-
-	protected function load() {
+	
+	//LOAD
+	protected function load($params) {
 		if ($this->method == 'GET') {
-			$id = $this->request["id"];
+			$id = $params[0];
 			if($id){
 				try {
 					$query = "SELECT id,tipologia,insegna,indirizzo,categoria,num_camere,num_postiletto FROM alberghi WHERE id=:id";
@@ -37,14 +39,60 @@ class ModelService extends RestService {
 		}
 	}
 	
-	// TODO
-	protected function save() {
+	// SAVE
+	protected function save($params) {
 		if ($this->method == 'POST') {
-			$data = $this->request["data"];
-			
-			return json_decode($data);
+			$json = $this->request['data'];	
+			$data = json_decode($json);
+			try {
+				$query = "INSERT INTO alberghi (tipologia,insegna,indirizzo,categoria,num_camere,num_postiletto) VALUES (?,?,?,?,?,?)";
+				$stm = $this->db->prepare($query);
+				$stm->execute($data);	
+			}catch (PDOException $e){
+				return array("error"=>true,"message"=>$e, "method"=>"save");
+			}
+			return $data;
 		} else {
 			return "Only accepts POST requests";
+		}
+	}
+	
+	// UPDATE TODO
+	protected function update($params) {
+		if ($this->method == 'POST') {
+			$json = $this->request['data'];
+			$data = json_decode($json);
+			try {
+				$query = "UPDATE alberghi SET tipologia=?,insegna=?,indirizzo=?,categoria=?,num_camere=?,num_postiletto=? WHERE id=?";
+				$stm = $this->db->prepare($query);
+				$stm->execute($data);
+			}catch (PDOException $e){
+				return array("error"=>true,"message"=>$e, "method"=>"save");
+			}
+			return $data;
+		} else {
+			return "Only accepts POST requests";
+		}
+	}
+	
+	//DELETE
+	protected function delete($params) {
+		if ($this->method == 'DELETE') {
+			$id = $params[0];
+			if($id){
+				try {
+					$query = "DELETE FROM alberghi WHERE id=$id";
+					$stm = $this->db->prepare($query);
+					$stm->execute();	
+				}catch (PDOException $e){
+					return array("error"=>true,"message"=>$e, "method"=>"delete","id"=>$id);
+				}
+				return $id;
+			}else{
+				return array("error"=>true,"message"=>"id null", "method"=>"delete","id"=>$id);
+			}
+		} else {
+			return "Only accepts DELETE requests";
 		}
 	}
 	

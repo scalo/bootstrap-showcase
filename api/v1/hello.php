@@ -3,17 +3,25 @@
 require_once '../RestService.class.php';
 
 class HelloService extends RestService {
-	protected $User;
 
 	public function __construct($request, $origin) {
 		parent::__construct($request);
 	}
-
-	protected function example() {
+	
+	protected function helloWorld() {
 		if ($this->method == 'GET') {
 			return "Hello World";
 		} else {
-			return "Only accepts GET requests";
+		return "Only accepts GET requests";
+		}
+		}
+	
+	protected function sayHello($params) {
+		if ($this->method == 'POST') {
+			return $this->request;
+			//return "Hello $params[0]";
+		} else {
+			return "Only accepts POST requests";
 		}
 	}
 }
