@@ -10,9 +10,16 @@
 
 <style>
 
+/* workaround positzione modal bootstrap*/
 .modal {
 	top: 10%;
 }
+
+/* workaround per select box bootstrap*/
+.form-control { 
+	padding-top:5px;
+}
+    
 
 </style>
 
@@ -23,6 +30,25 @@
 <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 
 <script type="text/javascript" charset="utf-8">
+	
+	function populate(frm, data) {   
+	    $.each(data, function(key, value){  
+	    var $ctrl = $('[name='+key+']', frm);  
+	    switch($ctrl.attr("type"))  
+	    {  
+	        case "text" :   
+	        case "hidden":  
+	        $ctrl.val(value);   
+	        break;   
+	        case "radio" : case "checkbox":   
+	        $ctrl.each(function(){
+	           if($(this).attr('value') == value) {  $(this).attr("checked",value); } });   
+	        break;  
+	        default:
+	        $ctrl.val(value); 
+	    }  
+	    });  
+	}
 	
 	$(document).ready(function() {
 		
@@ -118,12 +144,13 @@
 				      success: function (data) {
 				        console.debug(JSON.stringify(data));
 				        $('#dialog-edit').modal('show');
-				        var $inputs = $('#dialog-edit input');
-				        $.each(data, function(key, value) {
-				          $inputs.filter(function() {
-				            return key == this.name;
-				          }).val(value);
-				        });	
+// 				        var $inputs = $('#dialog-edit input');
+// 				        $.each(data, function(key, value) {
+// 				          $inputs.filter(function() {
+// 				            return key == this.name;
+// 				          }).val(value);
+// 				        });	
+						populate($('#dialog-edit form'),data);
 				      },
 				      error: function (xhr, ajaxOptions, thrownError) {
 				        console.error(xhr.status+" "+thrownError);
@@ -171,7 +198,8 @@
 			if(!$('#dialog-edit form').valid()) return;
 			
 			var id = $('#datatable tbody tr.active').children('td:eq(0)').text();
-			var values = [$("#dialog-edit input[name='tipologia']").val(),
+			var values = [
+			            $("#dialog-edit select[name='tipologia']").val(),
 			            $("#dialog-edit input[name='insegna']").val(),
 			            $("#dialog-edit input[name='indirizzo']").val(),
 			            $("#dialog-edit input[name='categoria']").val(),
@@ -219,7 +247,7 @@
 
 			var id = $('#datatable tbody tr.active').children('td:eq(0)').text();
 			var values = [
-			            $("#dialog-new input[name='tipologia']").val(),
+			            $("#dialog-new select[name='tipologia']").val(),
 			            $("#dialog-new input[name='insegna']").val(),
 			            $("#dialog-new input[name='indirizzo']").val(),
 			            $("#dialog-new input[name='categoria']").val(),
@@ -304,7 +332,10 @@
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="tipologia">Tipologia</label>
 							<div class="col-md-4">
-								<input name="tipologia" type=text class="form-control">
+								<select name="tipologia" class="form-control">
+									  <option value="Albergo">Albergo</option>
+									  <option value="Residence">Residence</option>
+								</select>
 							</div>
 						</div>
 						<div class="form-group">
@@ -368,7 +399,10 @@
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="tipologia">Tipologia</label>
 							<div class="col-md-4">
-								<input name="tipologia" type=text class="form-control">
+								<select name="tipologia" class="form-control">
+									  <option value="Albergo">Albergo</option>
+									  <option value="Residence">Residence</option>
+								</select>
 							</div>
 						</div>
 						<div class="form-group">
