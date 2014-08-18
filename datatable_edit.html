@@ -19,7 +19,10 @@
 .form-control { 
 	padding-top:5px;
 }
-    
+
+.glyphicon-star {
+	color: #0066CC;
+}    
 
 </style>
 
@@ -85,7 +88,10 @@
 		    	$(element).closest('.form-group').removeClass('has-error');
 		    },
 		    errorPlacement: function (error, element) {
-	 	       error.insertAfter(element.parent());
+		    	if (element.is(':radio'))
+	 	       		error.insertAfter(element.parent().parent().parent());
+		    	else
+		    		error.insertAfter(element.parent());
 		    }
 		});
 		
@@ -202,7 +208,7 @@
 			            $("#dialog-edit select[name='tipologia']").val(),
 			            $("#dialog-edit input[name='insegna']").val(),
 			            $("#dialog-edit input[name='indirizzo']").val(),
-			            $("#dialog-edit input[name='categoria']").val(),
+			            $("#dialog-edit input[name='categoria']:checked").val(),
 			            $("#dialog-edit input[name='num_camere']").val(),
 			            $("#dialog-edit input[name='num_postiletto']").val(),
 			            $("#dialog-edit input[name='id']").val()
@@ -250,7 +256,7 @@
 			            $("#dialog-new select[name='tipologia']").val(),
 			            $("#dialog-new input[name='insegna']").val(),
 			            $("#dialog-new input[name='indirizzo']").val(),
-			            $("#dialog-new input[name='categoria']").val(),
+			            $("#dialog-new input[name='categoria']:checked").val(),
 			            $("#dialog-new input[name='num_camere']").val(),
 			            $("#dialog-new input[name='num_postiletto']").val()        
 			];
@@ -333,6 +339,7 @@
 							<label class="col-sm-4 control-label" for="tipologia">Tipologia</label>
 							<div class="col-md-4">
 								<select name="tipologia" class="form-control">
+									  <option value=""></option>
 									  <option value="Albergo">Albergo</option>
 									  <option value="Residence">Residence</option>
 								</select>
@@ -353,7 +360,21 @@
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="categoria">Categoria</label>
 							<div class="col-md-4">
-								<input name="categoria" type="text" class="form-control">
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="1"><span class="glyphicon glyphicon-star"></span></label>
+								</div>
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="2" ><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></label>
+								</div>
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="3"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></label>
+								</div>
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="4"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></label>
+								</div>
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="5"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></label>
+								</div>
 							</div>
 						</div>
 						<div class="form-group">
@@ -400,6 +421,7 @@
 							<label class="col-sm-4 control-label" for="tipologia">Tipologia</label>
 							<div class="col-md-4">
 								<select name="tipologia" class="form-control">
+									  <option value=""></option>
 									  <option value="Albergo">Albergo</option>
 									  <option value="Residence">Residence</option>
 								</select>
@@ -420,7 +442,21 @@
 						<div class="form-group">
 							<label class="col-sm-4 control-label" for="categoria">Categoria</label>
 							<div class="col-md-4">
-								<input name="categoria" type="text" class="form-control">
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="1"><span class="glyphicon glyphicon-star"></span></label>
+								</div>
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="2" ><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></label>
+								</div>
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="3"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></label>
+								</div>
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="4"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></label>
+								</div>
+								<div class="radio">
+									<label><input name="categoria" type="radio" value="5"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></label>
+								</div>
 							</div>
 						</div>
 						<div class="form-group">
