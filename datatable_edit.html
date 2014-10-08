@@ -36,20 +36,19 @@
 	
 	function populate(frm, data) {   
 	    $.each(data, function(key, value){  
-	    var $ctrl = $('[name='+key+']', frm);  
-	    switch($ctrl.attr("type"))  
-	    {  
-	        case "text" :   
-	        case "hidden":  
-	        $ctrl.val(value);   
-	        break;   
-	        case "radio" : case "checkbox":   
-	        $ctrl.each(function(){
-	           if($(this).attr('value') == value) {  $(this).attr("checked",value); } });   
-	        break;  
-	        default:
-	        $ctrl.val(value); 
-	    }  
+		    var $ctrl = $('[name='+key+']', frm);  
+		    switch($ctrl.attr("type")){  
+		        case "text" :   
+		        case "hidden":  
+		        $ctrl.val(value);   
+		        break;   
+		        case "radio" : case "checkbox":   
+		        $ctrl.each(function(){
+		           if($(this).attr('value') == value) {  $(this).attr("checked",value); } });   
+		        break;  
+		        default:
+		        $ctrl.val(value); 
+		    }  
 	    });  
 	}
 	
@@ -97,7 +96,8 @@
 		
 		$.validator.messages={
 			required : 'Campo obbligatorio',
-			number: "Necessario valore numerico"
+			number: "Necessario valore numerico",
+			min: "Numero non valido"
 		};
 		
 		var validatorNew=$('#dialog-new form').validate({		 
@@ -108,11 +108,13 @@
 		    	categoria: "required",
 		    	num_camere: {
 		    		required:true,
-		    		number: true
+		    		number: true,
+		    		min: 1
 		    	},
 		    	num_postiletto: {
 		    		required:true,
-		    		number: true
+		    		number: true,
+		    		min: 1
 		    	}   	
 		 	}
 		});
@@ -125,11 +127,13 @@
 		    	categoria: "required",
 		    	num_camere: {
 		    		required:true,
-		    		number: true
+		    		number: true,
+		    		min: 1
 		    	},
 		    	num_postiletto: {
 		    		required:true,
-		    		number: true
+		    		number: true,
+		    		min: 1
 		    	}   	
 		 	}
 		});
